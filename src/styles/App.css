@@ -1,0 +1,11 @@
+.container {
+  max-width: 100%;\n  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fa;
+}
+
+.main-content {
+  flex: 1;
+}

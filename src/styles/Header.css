@@ -1,0 +1,43 @@
+.header {
+  background: white;
+  border-bottom: 3px solid #FF6B35;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.logo-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.company-name {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #FF6B35;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+}
+
+.company-tagline {
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 30px 20px;
+  }
+  
+  .company-name {
+    font-size: 32px;
+  }
+  
+  .company-tagline {
+    font-size: 14px;
+  }
+}

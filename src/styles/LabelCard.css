@@ -1,0 +1,96 @@
+.label-card {
+  position: relative;
+  border: 2px dashed #30363d;
+  border-radius: 12px;
+  padding: 40px;
+  background: #161b22;
+  transition: all 0.3s ease;
+}
+
+.label-card:hover {
+  border-color: #58a6ff;
+  box-shadow: 0 8px 24px rgba(88, 166, 255, 0.1);
+}
+
+.label-design {
+  width: 350px;
+  height: 200px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.label-title {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.label-subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+.dimension-lines {
+  position: absolute;
+  pointer-events: none;
+}
+
+.dim-horizontal {
+  position: absolute;
+  top: -25px;
+  left: 40px;
+  right: 40px;
+  height: 20px;
+  border-left: 2px solid #58a6ff;
+  border-right: 2px solid #58a6ff;
+  border-top: 2px solid #58a6ff;
+}
+
+.dim-vertical {
+  position: absolute;
+  left: -25px;
+  top: 40px;
+  bottom: 40px;
+  width: 20px;
+  border-top: 2px solid #58a6ff;
+  border-bottom: 2px solid #58a6ff;
+  border-left: 2px solid #58a6ff;
+}
+
+.dim-label {
+  position: absolute;
+  background: #58a6ff;
+  color: #0d1117;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.dim-h-label {
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dim-v-label {
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+}

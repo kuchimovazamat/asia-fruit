@@ -1,0 +1,63 @@
+.canvas-area {
+  flex: 1;
+  background: #0d1117;
+  padding: 40px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.canvas-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.canvas-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #c9d1d9;
+}
+
+.zoom-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.zoom-btn {
+  background: #161b22;
+  border: 1px solid #30363d;
+  color: #8b949e;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  font-size: 18px;
+}
+
+.zoom-btn:hover {
+  background: #21262d;
+  color: #c9d1d9;
+}
+
+.zoom-level {
+  font-size: 13px;
+  color: #8b949e;
+  min-width: 50px;
+  text-align: center;
+}
+
+.labels-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  padding: 20px;
+  transform-origin: top center;
+  transition: transform 0.3s ease;
+}
