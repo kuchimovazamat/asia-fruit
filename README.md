@@ -1,4 +1,4 @@
-# ASIA FRUITE Mahsulot Kataloqi
+# LAL ANAAR Mahsulot Kataloqi
 
 Premium tabiiy meva sharbatlari katalogi uchun zamonaviy React ilova. To'liq tarkib ma'lumotlari bilan.
 
@@ -123,4 +123,4 @@ Katalogda 6 ta mahsulot:
 ## Litsenziya
 
 MIT
-# asia-fruit
+# lal-anaar

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { ClipboardList, Palette, Image, FileText } from 'lucide-react'
 import '../styles/Sidebar.css'
 
 function Sidebar() {
@@ -40,7 +41,7 @@ function Sidebar() {
       {/* Technical Specifications */}
       <div className="sidebar-section">
         <div className="section-title">
-          <span className="section-icon">📋</span>
+          <ClipboardList className="section-icon" size={22} />
           Technical Specifications
         </div>
         
@@ -57,7 +58,7 @@ function Sidebar() {
       {/* Color Palette */}
       <div className="sidebar-section">
         <div className="section-title">
-          <span className="section-icon">🎨</span>
+          <Palette className="section-icon" size={22} />
           7-Color Palette
         </div>
         
@@ -80,7 +81,7 @@ function Sidebar() {
       {/* Label Selection */}
       <div className="sidebar-section">
         <div className="section-title">
-          <span className="section-icon">🖼️</span>
+          <Image className="section-icon" size={22} />
           Active Labels
         </div>
         
@@ -102,7 +103,7 @@ function Sidebar() {
       {/* Notes */}
       <div className="sidebar-section">
         <div className="section-title">
-          <span className="section-icon">📝</span>
+          <FileText className="section-icon" size={22} />
           Production Notes
         </div>
         

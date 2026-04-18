@@ -1,4 +1,4 @@
-# Quick Start Guide - ASIA FRUITE Kataloq
+# Quick Start Guide - LAL ANAAR Kataloq
 
 ## 🚀 Mahsulot katalogingiz tayyor!
 
