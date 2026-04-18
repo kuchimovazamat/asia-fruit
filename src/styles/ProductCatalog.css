@@ -153,8 +153,19 @@
 }
 
 .out-stock {
-  background: rgba(231, 76, 60, 0.9);
+  background: rgba(231, 76, 60, 0.95);
   color: white;
+  font-size: 11px;
+  box-shadow: 0 2px 8px rgba(231, 76, 60, 0.4);
+}
+
+.product-card:has(.out-stock) .product-image {
+  filter: grayscale(30%) brightness(0.9);
+}
+
+.product-card:has(.out-stock):hover {
+  border-color: #e74c3c;
+  box-shadow: 0 12px 32px rgba(231, 76, 60, 0.12);
 }
 
 .product-info {
