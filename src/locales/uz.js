@@ -68,7 +68,7 @@ export default {
     'Limon kislota': 'Limon kislota',
     'Rayhon urug\'i': 'Rayhon urug\'i',
     'Limon sharbati': 'Limon sharbati',
-    'Olma sharbati konsentrati (35%)': 'Olma sharbati konsentrati (35%)',
+    'Olma sharbati konsentrati (35%)': 'Shaftoli sharbati konsentrati (35%)',
     'Tabiiy olma ta\'mi': 'Tabiiy olma ta\'mi',
     'Ananas sharbati konsentrati (40%)': 'Ananas sharbati konsentrati (40%)',
     'Tabiiy ananas ta\'mi': 'Tabiiy ananas ta\'mi',
@@ -104,7 +104,7 @@ export default {
     'Aloe vera geli (20%)': 'Aloe vera geli (20%)',
     'Tabiiy tatib-tatlandiruvchilar': 'Tabiiy tatib-tatlandiruvchilar',
     'Barbekana pyuresi (40%)': 'Barbekana pyuresi (40%)',
-    'Dana sharbati konsentrati (35%)': 'Dana sharbati konsentrati (35%)',
+    'Dana sharbati konsentrati (35%)': 'Mandarin sharbati konsentrati (35%)',
     'Premium anor sharbati (100%)': 'Premium anor sharbati (100%)',
     'Premium olma sharbati konsentrati (40%)': 'Premium olma sharbati konsentrati (40%)',
     'Premium shaftoli pyuresi (45%)': 'Premium shaftoli pyuresi (45%)',
@@ -115,7 +115,7 @@ export default {
 
   // Product translations
   products: {
-    1: { name: 'Olma sharbati', shortDescription: '100% tabiiy olma sharbati, qand qo\'shilmagan', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
+    1: { name: 'Shaftoli sharbati', shortDescription: '100% tabiiy shaftoli sharbati, qand qo\'shilmagan', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     2: { name: 'Ananas sharbati', shortDescription: 'Premium ananas sharbati, 250 mL', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     3: { name: 'Mango sharbati', shortDescription: 'Pishgan mangodan tayyorlangan boy va kremli sharbot', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     4: { name: 'Anor sharbati', shortDescription: 'Tabiiy anor sharbati, antioksidantlarga boy', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
@@ -124,7 +124,7 @@ export default {
     7: { name: 'Nok sharbati', shortDescription: 'Shirin va nozik nok sharbati, 1 L', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     8: { name: 'Gilos sharbati', shortDescription: 'Vitaminga boy gilos sharbati', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 4 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     9: { name: 'Qizil olma sharbati', shortDescription: 'Premium qizil olma sharbati, boy ta\'m', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    10: { name: 'Aralash meva sharbati', shortDescription: 'Turli mevalarning ajoyib aralashmasi', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
+    10: { name: 'Mango Sharbati', shortDescription: 'Tabiiy va yangi uzilgan mango sharbati', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     11: { name: 'Olma-uzum sharbati', shortDescription: 'Olma va uzumning ajoyib uyg\'unligi', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     12: { name: 'Rayhonli olma sharbati', shortDescription: 'Rayhon urug\'i va olma - sog\'lom va mazali', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     13: { name: 'Rayhonli ananas', shortDescription: 'Rayhon urug\'i va ananas - tetiklantiruvchi kombinatsiya', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
@@ -136,18 +136,13 @@ export default {
     19: { name: 'Qizil shaftoli', shortDescription: 'Qizil shaftolidan tayyorlangan premium sharbot', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     20: { name: 'Aloe Vera', shortDescription: 'Sog\'lomlashtiruvchi aloe vera sharbati', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 3 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     21: { name: 'Barbekana', shortDescription: 'O\'ziga xos ta\'mli maxsus sharbot', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    22: { name: 'Dana sharbati', shortDescription: 'Tabiiy dana sharbati, boy ta\'mli', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
+    22: { name: 'Dani sharbati', shortDescription: 'Tabiiy mandarin sharbati, boy ta\'mli', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     23: { name: 'Anor Premium', shortDescription: 'Yuqori sifatli anor sharbati', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     24: { name: 'Olma Premium', shortDescription: 'Tanlangan olmalardan tayyorlangan premium sharbot', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     25: { name: 'Shaftoli Premium', shortDescription: 'Premium shaftoli sharbati, 250 mL', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     26: { name: 'Mango Premium', shortDescription: 'Eng yaxshi mangodan tayyorlangan premium sharbot', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     27: { name: 'Ananas Premium', shortDescription: 'Tropik ananas sharbati premium sifat', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     28: { name: 'Qovun Premium', shortDescription: 'Shirin va tetiklantiruvchi premium qovun sharbati', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 3 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    29: { name: 'O\'rik sharbati', shortDescription: 'Tabiiy o\'rik sharbati, 0.5 L', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    30: { name: 'Juice Drink Olma', shortDescription: 'Premium olma sharbati, 250 mL', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    32: { name: 'Juice Drink Mango', shortDescription: 'Premium mango sharbati, 250 mL', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    33: { name: 'Juice Drink Zardolu', shortDescription: 'Premium zardolu sharbati, 250 mL', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    34: { name: 'Juice Drink Malta', shortDescription: 'Premium apelsin sharbati, 250 mL', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    36: { name: 'Olcha + Ananas sharbati', shortDescription: 'Olcha va ananas aralashmasi, 0.5 L', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' }
+    39: { name: 'Olcha + Ananas sharbati', shortDescription: 'Olcha va ananas aralashmasi, 0.5 L', allergens: 'Yo\'q', storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' }
   }
 }

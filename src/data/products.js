@@ -207,7 +207,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 4 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 9,
@@ -233,7 +233,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 10,
@@ -262,7 +262,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 11,
@@ -289,7 +289,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 12,
@@ -316,7 +316,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 13,
@@ -343,7 +343,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 14,
@@ -370,7 +370,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 15,
@@ -398,7 +398,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 16,
@@ -422,7 +422,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 17,
@@ -446,7 +446,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 18,
@@ -470,7 +470,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 19,
@@ -497,7 +497,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 20,
@@ -550,7 +550,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 22,
@@ -577,7 +577,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 23,
@@ -601,7 +601,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 24,
@@ -627,7 +627,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 25,
@@ -680,7 +680,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 27,
@@ -706,7 +706,7 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 28,
@@ -732,140 +732,10 @@ export const products = [
     allergens: 'Yo\'q',
     storage: 'Sovuqda saqlang. Ochilgandan keyin 3 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
-    inStock: false
+    inStock: true
   },
   {
     id: 29,
-    name: 'O\'rik sharbati',
-    category: 'Klassik sharbatlar',
-    image: '/images/apricot_juice.jpeg',
-    shortDescription: 'Tabiiy o\'rik sharbati, 0.5 L',
-    ingredients: [
-      'Ichimlik suvi',
-      'Shakar',
-      'O\'rik sharbati konsentrati',
-      'Ksantan kamedi',
-      'Sorbat kaliy'
-    ],
-    nutrition: {
-      servingSize: '250ml',
-      calories: 118,
-      sugar: '29g',
-      protein: '0g',
-      fat: '0g',
-      carbs: '29g'
-    },
-    allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.',
-    origin: 'Osiyo ishlab chiqarilgan',
-    inStock: true
-  },
-  {
-    id: 30,
-    name: 'Juice Drink Olma',
-    category: 'Juice Drink',
-    image: '/images/apple_juice.jpeg',
-    shortDescription: 'Premium olma sharbati, 250 mL',
-    ingredients: [
-      'Ichimlik suvi',
-      'Shakar',
-      'Konsentratlangan olma sharbati',
-      'Ksantan kamedi',
-      'Sorbat kaliy'
-    ],
-    nutrition: {
-      servingSize: '250ml',
-      calories: 118,
-      sugar: '30g',
-      protein: '0g',
-      fat: '0g',
-      carbs: '30g'
-    },
-    allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.',
-    origin: 'Osiyo ishlab chiqarilgan',
-    inStock: true
-  },
-  {
-    id: 32,
-    name: 'Juice Drink Mango',
-    category: 'Juice Drink',
-    image: '/images/mango_juice.jpeg',
-    shortDescription: 'Premium mango sharbati, 250 mL',
-    ingredients: [
-      'Ichimlik suvi',
-      'Shakar',
-      'Konsentratlangan mango sharbati',
-      'Ksantan kamedi',
-      'Sorbat kaliy'
-    ],
-    nutrition: {
-      servingSize: '250ml',
-      calories: 118,
-      sugar: '30g',
-      protein: '0g',
-      fat: '0g',
-      carbs: '30g'
-    },
-    allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.',
-    origin: 'Osiyo ishlab chiqarilgan',
-    inStock: true
-  },
-  {
-    id: 33,
-    name: 'Juice Drink Zardolu',
-    category: 'Juice Drink',
-    image: '/images/apricot_juice.jpeg',
-    shortDescription: 'Premium zardolu sharbati, 250 mL',
-    ingredients: [
-      'Ichimlik suvi',
-      'Shakar',
-      'Konsentratlangan o\'rik sharbati',
-      'Ksantan kamedi',
-      'Sorbat kaliy'
-    ],
-    nutrition: {
-      servingSize: '250ml',
-      calories: 118,
-      sugar: '30g',
-      protein: '0g',
-      fat: '0g',
-      carbs: '30g'
-    },
-    allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.',
-    origin: 'Osiyo ishlab chiqarilgan',
-    inStock: true
-  },
-  {
-    id: 34,
-    name: 'Juice Drink Malta',
-    category: 'Juice Drink',
-    image: '/images/orange_juice.jpeg',
-    shortDescription: 'Premium apelsin sharbati, 250 mL',
-    ingredients: [
-      'Ichimlik suvi',
-      'Shakar',
-      'Konsentratlangan apelsin sharbati',
-      'Ksantan kamedi',
-      'Sorbat kaliy'
-    ],
-    nutrition: {
-      servingSize: '250ml',
-      calories: 118,
-      sugar: '30g',
-      protein: '0g',
-      fat: '0g',
-      carbs: '30g'
-    },
-    allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.',
-    origin: 'Osiyo ishlab chiqarilgan',
-    inStock: true
-  },
-  {
-    id: 36,
     name: 'Olcha + Ananas sharbati',
     category: 'Aralash sharbatlar',
     image: '/images/cherry_juice.jpeg',

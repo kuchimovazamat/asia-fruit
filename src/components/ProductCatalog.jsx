@@ -43,7 +43,8 @@ function ProductCatalog() {
 
       <div className="products-grid">
         {filteredProducts.map(product => {
-          const translated = t.products[product.id]
+          const translated = t.products?.[product.id]
+          if (!translated) return null
           return (
           <Link to={`/product/${product.id}`} key={product.id} className="product-card-link">
             <div className="product-card">
@@ -74,7 +75,8 @@ function ProductCatalog() {
               </div>
             </div>
           </Link>
-        )})}
+          )
+        })}
       </div>
     </div>
   )

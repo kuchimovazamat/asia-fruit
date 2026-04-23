@@ -143,11 +143,6 @@ export default {
     26: { name: 'Mango Premium', shortDescription: 'Premium beverage from the best mangoes', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     27: { name: 'Pineapple Premium', shortDescription: 'Tropical pineapple juice premium quality', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     28: { name: 'Melon Premium', shortDescription: 'Sweet and refreshing premium melon juice', allergens: 'None', storage: 'Keep refrigerated. Consume within 3 days after opening.', origin: 'Made in Asia' },
-    29: { name: 'Apricot Juice', shortDescription: 'Natural apricot juice, 0.5 L', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
-    30: { name: 'Juice Drink Apple', shortDescription: 'Premium apple juice drink, 250 mL', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
-    32: { name: 'Juice Drink Mango', shortDescription: 'Premium mango juice drink, 250 mL', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
-    33: { name: 'Juice Drink Apricot', shortDescription: 'Premium apricot juice drink, 250 mL', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
-    34: { name: 'Juice Drink Orange', shortDescription: 'Premium orange juice drink, 250 mL', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
-    36: { name: 'Cherry + Pineapple Juice', shortDescription: 'Cherry and pineapple blend, 0.5 L', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' }
+    29: { name: 'Cherry + Pineapple Juice', shortDescription: 'Cherry and pineapple blend, 0.5 L', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' }
   }
 }
