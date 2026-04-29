@@ -5,7 +5,6 @@ import { getDetailedProductInfo, hasDetailedInfo } from '../data/detailedProduct
 import { useTranslation } from '../context/TranslationContext'
 import locales from '../locales'
 import { ClipboardList, Apple, Info, Package, Factory, Award } from 'lucide-react'
-import LanguageSelector from './LanguageSelector'
 import '../styles/ProductDetail.css'
 
 function ProductDetail() {
@@ -32,7 +31,6 @@ function ProductDetail() {
         <button className="back-btn" onClick={() => navigate('/')}>
           ← {t.backToCatalog}
         </button>
-        <LanguageSelector />
       </div>
 
       <div className="detail-content">

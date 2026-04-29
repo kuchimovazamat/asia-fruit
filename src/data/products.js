@@ -21,7 +21,7 @@ export const products = [
       carbs: '30g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -30,7 +30,7 @@ export const products = [
     name: 'Ananas sharbati',
     category: 'Klassik sharbatlar',
     image: '/images/ananas_juice.jpeg',
-    shortDescription: 'Premium ananas sharbati, 250 mL',
+    shortDescription: 'Premium ananas sharbati',
     ingredients: [
       'Ichimlik suvi',
       'Shakar',
@@ -47,7 +47,7 @@ export const products = [
       carbs: '30g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -74,7 +74,7 @@ export const products = [
       carbs: '35g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -98,7 +98,7 @@ export const products = [
       carbs: '33g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -125,7 +125,7 @@ export const products = [
       carbs: '31g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -151,7 +151,7 @@ export const products = [
       carbs: '25g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 3 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -178,7 +178,7 @@ export const products = [
       carbs: '29g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -205,7 +205,7 @@ export const products = [
       carbs: '32g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 4 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 4 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -231,7 +231,7 @@ export const products = [
       carbs: '31g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -260,7 +260,7 @@ export const products = [
       carbs: '33g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -287,7 +287,7 @@ export const products = [
       carbs: '35g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -314,7 +314,7 @@ export const products = [
       carbs: '30g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -341,7 +341,7 @@ export const products = [
       carbs: '33g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -368,7 +368,7 @@ export const products = [
       carbs: '34g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -396,7 +396,7 @@ export const products = [
       carbs: '32g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -420,7 +420,7 @@ export const products = [
       carbs: '36g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -444,7 +444,7 @@ export const products = [
       carbs: '37g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -468,7 +468,7 @@ export const products = [
       carbs: '37g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -495,7 +495,7 @@ export const products = [
       carbs: '33g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -521,7 +521,7 @@ export const products = [
       carbs: '15g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 3 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -548,19 +548,19 @@ export const products = [
       carbs: '27g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
   {
     id: 22,
-    name: 'Dana sharbati',
+    name: 'Dani sharbati',
     category: 'Klassik sharbatlar',
     image: '/images/daniii_juice.jpeg',
-    shortDescription: 'Tabiiy dana sharbati, boy ta\'mli',
+    shortDescription: 'Tabiiy dani sharbati, boy ta\'mli',
     ingredients: [
       'Filtrlangan suv',
-      'Dana sharbati konsentrati (35%)',
+      'Mandarin sharbati konsentrati (35%)',
       'Qamish shakari',
       'Tabiiy ta\'mlar',
       'Vitamin C (askorbin kislota)',
@@ -575,7 +575,7 @@ export const products = [
       carbs: '30g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -599,7 +599,7 @@ export const products = [
       carbs: '34g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 7 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 7 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -625,7 +625,7 @@ export const products = [
       carbs: '31g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -634,7 +634,7 @@ export const products = [
     name: 'Shaftoli Premium',
     category: 'Premium sharbatlar',
     image: '/images/shaftoliii_juice.jpeg',
-    shortDescription: 'Premium shaftoli sharbati, 250 mL',
+    shortDescription: 'Premium shaftoli sharbati',
     ingredients: [
       'Ichimlik suvi',
       'Shakar',
@@ -651,7 +651,7 @@ export const products = [
       carbs: '30g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -678,7 +678,7 @@ export const products = [
       carbs: '36g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -704,7 +704,7 @@ export const products = [
       carbs: '34g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -730,7 +730,7 @@ export const products = [
       carbs: '26g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 3 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -739,7 +739,7 @@ export const products = [
     name: 'Olcha + Ananas sharbati',
     category: 'Aralash sharbatlar',
     image: '/images/cherry_juice.jpeg',
-    shortDescription: 'Olcha va ananas aralashmasi, 0.5 L',
+    shortDescription: 'Olcha va ananas aralashmasi',
     ingredients: [
       'Ichimlik suvi',
       'Shakar',
@@ -757,7 +757,7 @@ export const products = [
       carbs: '30g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuqda saqlang. Ochilgandan keyin 24 soat ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   }

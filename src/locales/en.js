@@ -91,6 +91,7 @@ export default {
     'Shaftoli pyuresi (10%)': 'Peach puree (10%)',
     'Olma sharbati konsentrati (25%)': 'Apple juice concentrate (25%)',
     'Uzum sharbati konsentrati (25%)': 'Grape juice concentrate (25%)',
+    'Dani sharbati konsentrati (35%)': 'Mandarin juice concentrate (35%)',
     'Tabiiy ta\'mlar': 'Natural flavors',
     'Olma sharbati konsentrati (30%)': 'Apple juice concentrate (30%)',
     'Ananas sharbati konsentrati (35%)': 'Pineapple juice concentrate (35%)',
@@ -104,7 +105,7 @@ export default {
     'Aloe vera geli (20%)': 'Aloe vera gel (20%)',
     'Tabiiy tatib-tatlandiruvchilar': 'Natural sweeteners',
     'Barbekana pyuresi (40%)': 'Barbecana puree (40%)',
-    'Dana sharbati konsentrati (35%)': 'Grain juice concentrate (35%)',
+    'Mandarin sharbati konsentrati (35%)': 'Mandarin juice concentrate (35%)',
     'Premium anor sharbati (100%)': 'Premium pomegranate juice (100%)',
     'Premium olma sharbati konsentrati (40%)': 'Premium apple juice concentrate (40%)',
     'Premium shaftoli pyuresi (45%)': 'Premium peach puree (45%)',
@@ -116,12 +117,12 @@ export default {
   // Product translations
   products: {
     1: { name: 'Apple Juice', shortDescription: '100% natural apple juice, no added sugar', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
-    2: { name: 'Pineapple Juice', shortDescription: 'Premium pineapple juice drink, 250 mL', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
+    2: { name: 'Pineapple Juice', shortDescription: 'Premium pineapple juice drink', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
     3: { name: 'Mango Juice', shortDescription: 'Rich and creamy drink made from ripe mangoes', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     4: { name: 'Pomegranate Juice', shortDescription: 'Natural pomegranate juice, rich in antioxidants', allergens: 'None', storage: 'Keep refrigerated. Consume within 7 days after opening.', origin: 'Made in Asia' },
     5: { name: 'Peach Juice', shortDescription: 'Soft and sweet peach juice', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     6: { name: 'Melon Juice', shortDescription: 'Refreshing melon juice for hot days', allergens: 'None', storage: 'Keep refrigerated. Consume within 3 days after opening.', origin: 'Made in Asia' },
-    7: { name: 'Pear Juice', shortDescription: 'Sweet and delicate pear juice, 1 L', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
+    7: { name: 'Pear Juice', shortDescription: 'Sweet and delicate pear juice', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     8: { name: 'Cherry Juice', shortDescription: 'Cherry juice, rich in vitamins', allergens: 'None', storage: 'Keep refrigerated. Consume within 4 days after opening.', origin: 'Made in Asia' },
     9: { name: 'Red Apple Juice', shortDescription: 'Premium red apple juice, rich taste', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     10: { name: 'Mixed Fruit Juice', shortDescription: 'Amazing blend of various fruits', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
@@ -136,13 +137,13 @@ export default {
     19: { name: 'Red Peach', shortDescription: 'Premium drink made from red peach', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     20: { name: 'Aloe Vera', shortDescription: 'Wellness aloe vera juice', allergens: 'None', storage: 'Keep refrigerated. Consume within 3 days after opening.', origin: 'Made in Asia' },
     21: { name: 'Barbecana', shortDescription: 'Special beverage with unique taste', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
-    22: { name: 'Grain Juice', shortDescription: 'Natural grain juice, rich taste', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
+    22: { name: 'Dani Juice', shortDescription: 'Natural mandarin juice, rich taste', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     23: { name: 'Pomegranate Premium', shortDescription: 'High quality pomegranate juice', allergens: 'None', storage: 'Keep refrigerated. Consume within 7 days after opening.', origin: 'Made in Asia' },
     24: { name: 'Apple Premium', shortDescription: 'Premium beverage made from selected apples', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
-    25: { name: 'Peach Premium', shortDescription: 'Premium peach juice drink, 250 mL', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
+    25: { name: 'Peach Premium', shortDescription: 'Premium peach juice drink', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
     26: { name: 'Mango Premium', shortDescription: 'Premium beverage from the best mangoes', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     27: { name: 'Pineapple Premium', shortDescription: 'Tropical pineapple juice premium quality', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     28: { name: 'Melon Premium', shortDescription: 'Sweet and refreshing premium melon juice', allergens: 'None', storage: 'Keep refrigerated. Consume within 3 days after opening.', origin: 'Made in Asia' },
-    29: { name: 'Cherry + Pineapple Juice', shortDescription: 'Cherry and pineapple blend, 0.5 L', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' }
+    29: { name: 'Cherry + Pineapple Juice', shortDescription: 'Cherry and pineapple blend', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' }
   }
 }
