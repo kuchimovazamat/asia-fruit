@@ -733,32 +733,5 @@ export const products = [
     storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
-  },
-  {
-    id: 29,
-    name: 'Olcha + Ananas sharbati',
-    category: 'Aralash sharbatlar',
-    image: '/images/cherry_juice.jpeg',
-    shortDescription: 'Olcha va ananas aralashmasi',
-    ingredients: [
-      'Ichimlik suvi',
-      'Shakar',
-      'Konsentratlangan olcha sharbati',
-      'Konsentratlangan ananas sharbati',
-      'Ksantan kamedi',
-      'Sorbat kaliy'
-    ],
-    nutrition: {
-      servingSize: '250ml',
-      calories: 120,
-      sugar: '30g',
-      protein: '0g',
-      fat: '0g',
-      carbs: '30g'
-    },
-    allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
-    origin: 'Osiyo ishlab chiqarilgan',
-    inStock: true
   }
 ]

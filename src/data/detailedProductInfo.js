@@ -521,29 +521,6 @@ export const detailedProductInfo = {
     barcode: null, productCode: null
   },
 
-  36: { // Lal Anaar — Olcha + Ananas / Cherry + Pineapple | 0.5L
-    variants: [{ volume: '500 mL', packaging: { dimensions: [], unit: 'mm' } }],
-    description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
-    detailedIngredients: {
-      uz: 'Ichimlik suvi, shakar, konsentratlangan olcha sharbati, konsentratlangan ananas sharbati, oziq-ovqat qo\'shimchasi ksantan kamedi, sorbat kaliy',
-      ru: 'Питьевая вода, сахар, концентрированный вишнёвый сок, концентрированный ананасовый сок, пищевая добавка ксантановая камедь, сорбат калия',
-      en: 'Drinking water, sugar, concentrated cherry juice, concentrated pineapple juice, food additive xanthan gum, potassium sorbate',
-      kz: 'Ішімдік суы, қант, концентрацияланған алша шырыны, концентрацияланған ананас шырыны, тамақтық қоспа ксантан камеді, калий сорбаты',
-      tj: 'Оби нӯшокӣ, қанд, шарботи олучаи ғилзатшуда, шарботи ананаси ғилзатшуда, иловаи хӯрокворӣ ксантан камедь, сорбати калий',
-      kg: 'Ичүүчү суу, кант, концентрацияланган алча ширеси, концентрацияланган ананас ширеси, тамак-аш кошумчасы ксантан камедь, калий сорбаты'
-    },
-    nutritionPer100ml: { carbohydrates: { amount: '12 g', variance: '± 0.5 g' }, energy: { kcal: 48, kj: 201 } },
-    storage: {
-      temperature: { min: 0, max: 25, unit: '°C' },
-      humidity: { max: 75, unit: '%' },
-      conditions: { uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Ochilgandan keyin muzlatgichda saqlang va 24 soat ichida iste\'mol qiling.', ru: 'Беречь от солнца. Перед употреблением взболтать. Хранить в холодильнике и употребить в течение 24 часов после вскрытия.', en: 'Keep from sunlight. Shake before use. Refrigerate after opening and consume within 24 hours.', kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Пас аз кушодан 24 соат истифода баред.', kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле. Ачкандан кийин 24 саат ичинде ичиңиз.' }
-    },
-    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab', ru: 'С даты производства', en: 'From production date', kz: 'Өндірілген күннен бастап', tj: 'Аз санаи истеҳсол', kg: 'Өндүрүлгөн күндөн баштап' } },
-    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahri, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
-    certifications: { uz: ['Mahsulot pasterizasiya qilingan', '100% Tabiiy meva'], ru: ['Продукт пастеризован', '100% Натуральные фрукты'], en: ['Product is pasteurized', '100% Natural fruits'], kz: ['Өнім пастерленген', '100% Табиғи жемістер'], tj: ['Маҳсулот пастеризатсия шудааст', '100% Мевaҳои табиӣ'], kg: ['Продукт пастеризацияланган', '100% Табигый жемиштер'] },
-    barcode: null, productCode: null
-  },
-
   // Template for adding more products:
   // productId: {
   //   volume: 'size with unit',
@@ -1001,7 +978,7 @@ export const detailedProductInfo = {
       kz: 'Премиум қауын шырыны (92%), сүзілген су, лимон шырыны, табиғи қауын дәмі, лимон қышқылы',
       tj: 'Шарбати преимум харбуза (92%), оби тоза, шарбати лимӯ, бӯи табиии харбуза, кислотаи лимӯ',
       kg: 'Премиум коон ширеси (92%), тазаланган суу, лимон ширеси, табигый коон даамы, лимон кислотасы'
-},
+    },
     nutritionPer100ml: { carbohydrates: { amount: '12 g', variance: '± 0.5 g' }, energy: { kcal: 48, kj: 201 } },
     storage: {
       temperature: { min: 0, max: 25, unit: '°C' },

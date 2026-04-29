@@ -142,7 +142,6 @@ export default {
     25: { name: 'Shaftoli Premium', shortDescription: 'Premium shaftoli sharbati', allergens: 'Yo\'q', storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     26: { name: 'Mango Premium', shortDescription: 'Eng yaxshi mangodan tayyorlangan premium sharbot', allergens: 'Yo\'q', storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
     27: { name: 'Ananas Premium', shortDescription: 'Tropik ananas sharbati premium sifat', allergens: 'Yo\'q', storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    28: { name: 'Qovun Premium', shortDescription: 'Shirin va tetiklantiruvchi premium qovun sharbati', allergens: 'Yo\'q', storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' },
-    29: { name: 'Olcha + Ananas sharbati', shortDescription: 'Olcha va ananas aralashmasi', allergens: 'Yo\'q', storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' }
+    28: { name: 'Qovun Premium', shortDescription: 'Shirin va tetiklantiruvchi premium qovun sharbati', allergens: 'Yo\'q', storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.', origin: 'Osiyo ishlab chiqarilgan' }
   }
 }

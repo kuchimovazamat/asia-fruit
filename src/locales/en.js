@@ -143,7 +143,6 @@ export default {
     25: { name: 'Peach Premium', shortDescription: 'Premium peach juice drink', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' },
     26: { name: 'Mango Premium', shortDescription: 'Premium beverage from the best mangoes', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
     27: { name: 'Pineapple Premium', shortDescription: 'Tropical pineapple juice premium quality', allergens: 'None', storage: 'Keep refrigerated. Consume within 5 days after opening.', origin: 'Made in Asia' },
-    28: { name: 'Melon Premium', shortDescription: 'Sweet and refreshing premium melon juice', allergens: 'None', storage: 'Keep refrigerated. Consume within 3 days after opening.', origin: 'Made in Asia' },
-    29: { name: 'Cherry + Pineapple Juice', shortDescription: 'Cherry and pineapple blend', allergens: 'None', storage: 'Keep refrigerated. Consume within 24 hours after opening.', origin: 'Made in Asia' }
+    28: { name: 'Melon Premium', shortDescription: 'Sweet and refreshing premium melon juice', allergens: 'None', storage: 'Keep refrigerated. Consume within 3 days after opening.', origin: 'Made in Asia' }
   }
 }
