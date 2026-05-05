@@ -1,58 +1,76 @@
 .header {
   background: white;
   border-bottom: 3px solid #FF6B35;
-  padding: 40px 20px;
+  padding: 32px 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .header-content {
   max-width: 1600px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  gap: 20px;
 }
 
 .logo-link {
+  grid-column: 2;
   text-decoration: none;
-  display: inline-block;
-  flex: 1;
   text-align: center;
 }
 
+.language-selector-buttons {
+  grid-column: 3;
+  justify-self: end;
+}
+
 .company-name {
+  font-family: 'Raleway', sans-serif;
   font-size: 48px;
   font-weight: 900;
-  letter-spacing: -1px;
+  letter-spacing: 2px;
   color: #FF6B35;
-  margin: 0 0 8px 0;
+  margin: 0 0 6px 0;
   text-transform: uppercase;
 }
 
 .company-tagline {
-  font-size: 16px;
-  color: #666;
+  font-size: 15px;
+  color: #888;
   font-weight: 500;
   margin: 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
   .header {
-    padding: 30px 20px;
+    padding: 20px 16px;
   }
 
   .header-content {
+    display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 16px;
   }
-  
+
+  .logo-link {
+    grid-column: unset;
+  }
+
+  .language-selector-buttons {
+    grid-column: unset;
+    justify-self: unset;
+  }
+
   .company-name {
-    font-size: 32px;
+    font-size: 30px;
+    letter-spacing: 1.5px;
   }
-  
+
   .company-tagline {
-    font-size: 14px;
+    font-size: 11px;
+    letter-spacing: 1px;
   }
 }

@@ -56,7 +56,7 @@ export const products = [
     name: 'Mango sharbati',
     category: 'Klassik sharbatlar',
     image: '/images/mango_juice.jpeg',
-    shortDescription: 'Pishgan mangodan tayyorlangan boy va kremli sharbot',
+    shortDescription: 'Pishgan mangodan tayyorlangan vitaminlarga boy va kremli sharbat',
     ingredients: [
       'Filtrlangan suv',
       'Mango pyuresi (45%)',

@@ -379,7 +379,7 @@ export const detailedProductInfo = {
   5: { // Shaftoli sharbati / Peach Juice | 0.5L & 1L
     variants: [
       { volume: '1 L', packaging: { dimensions: [158], unit: 'mm' } },
-      { volume: '1 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }
+      { volume: '0.5 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }
     ],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
@@ -647,7 +647,7 @@ export const detailedProductInfo = {
   },
 
   12: { // Copied from Mango Juice
-    variants: [{ volume: '250 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
+    variants: [{ volume: '300 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
       uz: 'Filtrlangan suv, olma sharbati konsentrati (30%), rayhon urug\'i, tabiiy olma ta\'mi, vitamin C (askorbin kislota), limon kislota',
@@ -670,7 +670,7 @@ export const detailedProductInfo = {
   },
 
   13: { // Copied from Mango Juice
-    variants: [{ volume: '250 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
+    variants: [{ volume: '300 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
       uz: 'Filtrlangan suv, ananas sharbati konsentrati (35%), rayhon urug\'i, tabiiy ananas ta\'mi, vitamin C (askorbin kislota), limon kislota',
@@ -693,7 +693,7 @@ export const detailedProductInfo = {
   },
 
   14: { // Copied from Mango Juice
-    variants: [{ volume: '250 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
+    variants: [{ volume: '300 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
       uz: 'Filtrlangan suv, anor sharbati (40%), rayhon urug\'i, tabiiy anor ta\'mi, vitamin C (askorbin kislota), limon kislota',
@@ -716,7 +716,7 @@ export const detailedProductInfo = {
   },
 
   15: { // Copied from Mango Juice
-    variants: [{ volume: '250 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
+    variants: [{ volume: '300 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
       uz: 'Filtrlangan suv, shaftoli pyuresi (35%), rayhon urug\'i, qamish shakari, tabiiy shaftoli ta\'mi, vitamin C (askorbin kislota), limon kislota',
@@ -739,7 +739,10 @@ export const detailedProductInfo = {
   },
 
   16: { // Copied from Mango Juice
-    variants: [{ volume: '1 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
+    variants: [
+      { volume: '1 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } },
+      { volume: '0.5 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }
+    ],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
       uz: 'Lal anor sharbati (100%), vitamin C (askorbin kislota), tabiiy anor ta\'mi',
@@ -762,7 +765,10 @@ export const detailedProductInfo = {
   },
 
   17: { // Copied from Mango Juice
-    variants: [{ volume: '1 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
+    variants: [
+      { volume: '1.5 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } },
+      { volume: '1.15 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }
+    ],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
       uz: 'Lal anor sharbati (100%), vitamin C (askorbin kislota), tabiiy anor ekstrakti',

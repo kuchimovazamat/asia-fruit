@@ -157,11 +157,6 @@ function ProductDetail() {
                         {detailedInfo.variants.map((variant, index) => (
                           <div key={index} className="variant-item">
                             <span className="variant-volume">{variant.volume}</span>
-                            {variant.packaging && variant.packaging.dimensions && (
-                              <span className="variant-dimensions">
-                                ({variant.packaging.dimensions.join(' × ')} {variant.packaging.unit})
-                              </span>
-                            )}
                           </div>
                         ))}
                       </div>
@@ -322,15 +317,6 @@ function ProductDetail() {
                   {t.productInfo}
                 </h2>
                 <div className="info-grid">
-                  {detailedInfo.packaging && detailedInfo.packaging.dimensions && (
-                    <div className="info-item">
-                      <span className="info-label">{t.dimensions}</span>
-                      <span className="info-value">
-                        {detailedInfo.packaging.dimensions.join(' × ')} {detailedInfo.packaging.unit}
-                      </span>
-                    </div>
-                  )}
-                  {/* Packaging already shown in variants section if variants exist */}
                 </div>
                 {detailedInfo.certifications && detailedInfo.certifications[language] && (
                   <div className="certifications-list">
