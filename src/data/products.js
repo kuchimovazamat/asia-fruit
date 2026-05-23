@@ -1,5 +1,5 @@
 export const products = [
-  {
+  /* {
     id: 1,
     name: 'Olma sharbati',
     category: 'Klassik sharbatlar',
@@ -24,7 +24,7 @@ export const products = [
     storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
-  },
+  }, */
   {
     id: 2,
     name: 'Ananas sharbati',
@@ -34,17 +34,20 @@ export const products = [
     ingredients: [
       'Ichimlik suvi',
       'Shakar',
-      'Konsentratlangan ananas sharbati',
-      'Ksantan kamedi',
-      'Sorbat kaliy'
+      'Tabiiy ananas emulsiyasi',
+      'Konsentratlangan olma sharbati',
+      'Ananas aromati',
+      'Limon kislota',
+      'Natriy benzoat',
+      'Natriy sitrat'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 118,
-      sugar: '30g',
+      servingSize: '100ml',
+      calories: 48,
+      sugar: '12g',
       protein: '0g',
       fat: '0g',
-      carbs: '30g'
+      carbs: '12g'
     },
     allergens: 'Yo\'q',
     storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
@@ -56,25 +59,23 @@ export const products = [
     name: 'Mango sharbati',
     category: 'Klassik sharbatlar',
     image: '/images/mango_juice.jpeg',
-    shortDescription: 'Pishgan mangodan tayyorlangan vitaminlarga boy va kremli sharbat',
+    shortDescription: 'Tabiiy mango sharbati',
     ingredients: [
-      'Filtrlangan suv',
-      'Mango pyuresi (45%)',
-      'Qamish shakari',
-      'Tabiiy mango ta\'mi',
-      'Vitamin C (askorbin kislota)',
-      'Limon kislota'
+      'Ichimlik suvi',
+      'Shakar',
+      'Mango sharbati konsentrati',
+      'Oziq-ovqat qo\'shimchasi ksantan kamedi'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 140,
-      sugar: '32g',
-      protein: '1g',
+      servingSize: '100ml',
+      calories: 48,
+      sugar: '12g',
+      protein: '0g',
       fat: '0g',
-      carbs: '35g'
+      carbs: '12g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -83,22 +84,24 @@ export const products = [
     name: 'Anor sharbati',
     category: 'Klassik sharbatlar',
     image: '/images/anor_juice.jpeg',
-    shortDescription: 'Tabiiy anor sharbati, antioksidantlarga boy',
+    shortDescription: 'Tabiiy anor va olma sharbati aralashmasi',
     ingredients: [
-      'Anor sharbati (100%)',
-      'Vitamin C (askorbin kislota)',
-      'Tabiiy anor ta\'mi'
+      'Ichimlik suvi',
+      'Shakar',
+      'Konsentratlangan anor sharbati',
+      'Konsentratlangan olma sharbati',
+      'Oziq-ovqat qo\'shimchasi ksantan kamedi'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 135,
-      sugar: '32g',
-      protein: '1g',
+      servingSize: '100ml',
+      calories: 52,
+      sugar: '13g',
+      protein: '0g',
       fat: '0g',
-      carbs: '33g'
+      carbs: '13g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 7 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -107,25 +110,24 @@ export const products = [
     name: 'Shaftoli sharbati',
     category: 'Klassik sharbatlar',
     image: '/images/shaftoli_juice.jpeg',
-    shortDescription: 'Yumshoq va shirin shaftoli sharbati',
+    shortDescription: 'Tabiiy shaftoli sharbati',
     ingredients: [
-      'Filtrlangan suv',
-      'Shaftoli pyuresi (40%)',
-      'Qamish shakari',
-      'Tabiiy shaftoli ta\'mi',
-      'Vitamin C (askorbin kislota)',
-      'Limon kislota'
+      'Ichimlik suvi',
+      'Shakar',
+      'Shaftoli sharbati konsentrati',
+      'Oziq-ovqat qo\'shimchasi ksantan kamedi',
+      'Sorbat kaliy'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 125,
-      sugar: '29g',
-      protein: '1g',
+      servingSize: '100ml',
+      calories: 50,
+      sugar: '12.5g',
+      protein: '0g',
       fat: '0g',
-      carbs: '31g'
+      carbs: '12.5g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -134,24 +136,26 @@ export const products = [
     name: 'Qovun sharbati',
     category: 'Klassik sharbatlar',
     image: '/images/qovun_juice.jpeg',
-    shortDescription: 'Issiq kunlar uchun tetiklantiruvchi qovun sharbati',
+    shortDescription: 'Tabiiy qovun sharbati',
     ingredients: [
-      'Qovun sharbati (90%)',
-      'Filtrlangan suv',
-      'Limon sharbati',
-      'Tabiiy qovun ta\'mi',
-      'Limon kislota'
+      'Ichimlik suvi',
+      'Shakar',
+      'Konsentlangan olma sharbati',
+      'Qovun aromati',
+      'Limon kislota',
+      'Kaliy sorbat',
+      'Olma kislotasi'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 100,
-      sugar: '22g',
-      protein: '1g',
+      servingSize: '100ml',
+      calories: 46,
+      sugar: '11.5g',
+      protein: '0g',
       fat: '0g',
-      carbs: '25g'
+      carbs: '11.5g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -160,7 +164,7 @@ export const products = [
     name: 'Nok sharbati',
     category: 'Klassik sharbatlar',
     image: '/images/nok_juice.jpeg',
-    shortDescription: 'Shirin va nozik nok sharbati',
+    shortDescription: 'Tabiiy nok sharbati',
     ingredients: [
       'Ichimlik suvi',
       'Shakar',
@@ -170,19 +174,19 @@ export const products = [
       'Kaliy sorbat'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 118,
-      sugar: '29g',
+      servingSize: '100ml',
+      calories: 47,
+      sugar: '11.7g',
       protein: '0g',
       fat: '0g',
-      carbs: '29g'
+      carbs: '11.7g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
-  {
+  /* {
     id: 8,
     name: 'Gilos sharbati',
     category: 'Klassik sharbatlar',
@@ -208,34 +212,37 @@ export const products = [
     storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 4 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
-  },
+  }, */
   {
     id: 9,
     name: 'Qizil olma sharbati',
     category: 'Premium sharbatlar',
     image: '/images/qiziql_olma_juice.jpeg',
-    shortDescription: 'Premium qizil olma sharbati, boy ta\'m',
+    shortDescription: 'Olma sharbati, meva sharbati 50% dan kam emas',
     ingredients: [
-      'Filtrlangan suv',
-      'Qizil olma sharbati konsentrati (40%)',
-      'Tabiiy olma ta\'mi',
-      'Vitamin C (askorbin kislota)',
-      'Limon kislota'
+      'Ichimlik suvi',
+      'Konsentratlangan olma sharbati',
+      'Olma aromati',
+      'Aspartam',
+      'Limon kislota',
+      'Sitrat natriy',
+      'Natriy benzoat',
+      'Sorbat kaliy'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 125,
-      sugar: '29g',
+      servingSize: '100ml',
+      calories: 24,
+      sugar: '5.8g',
       protein: '0g',
       fat: '0g',
-      carbs: '31g'
+      carbs: '5.8g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
-  {
+  /* {
     id: 10,
     name: 'Aralash meva sharbati',
     category: 'Aralash sharbatlar',
@@ -498,34 +505,41 @@ export const products = [
     storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
-  },
+  }, */
   {
     id: 20,
     name: 'Aloe Vera sharbati',
     category: 'Sog\'lomlashtiruvchi sharbatlar',
     image: '/images/aloe_vera.jpeg',
-    shortDescription: 'Sog\'lomlashtiruvchi aloe vera sharbati',
+    shortDescription: 'Aloe vera sharbatli original ichimlik',
     ingredients: [
-      'Filtrlangan suv',
-      'Aloe vera geli (20%)',
-      'Limon sharbati',
-      'Tabiiy tatib-tatlandiruvchilar',
-      'Vitamin C (askorbin kislota)'
+      'Ichimlik suvi',
+      'Shakar',
+      'Aloe vera sharbati',
+      'Aloe vera qelli',
+      'Aloe vera aromati',
+      'Limon kislota',
+      'Sitrat natriy',
+      'Olma kislotasi',
+      'Sorbat kaliy',
+      'Qellan kamedi',
+      'Konjak kamedi',
+      'Kalsiy karbonat'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 60,
-      sugar: '14g',
+      servingSize: '100ml',
+      calories: 36,
+      sugar: '9g',
       protein: '0g',
       fat: '0g',
-      carbs: '15g'
+      carbs: '9g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
-  {
+  /* {
     id: 21,
     name: 'Barbekana sharbati',
     category: 'Maxsus sharbatlar',
@@ -707,30 +721,33 @@ export const products = [
     storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
-  },
+  }, */
   {
     id: 28,
-    name: 'Qovun Premium',
-    category: 'Premium sharbatlar',
+    name: 'Qovun Sharbati',
+    category: 'Klassik sharbatlar',
     image: '/images/melon_juice.jpeg',
-    shortDescription: 'Shirin va tetiklantiruvchi premium qovun sharbati',
+    shortDescription: 'Tabiiy qovun sharbati',
     ingredients: [
-      'Premium qovun sharbati (92%)',
-      'Filtrlangan suv',
-      'Limon sharbati',
-      'Tabiiy qovun ta\'mi',
-      'Limon kislota'
+      'Ichimlik suvi',
+      'Shakar',
+      'Konsentlangan qovun sharbati',
+      'Konsentlangan olma sharbati',
+      'Qovun aromati',
+      'Limon kislota',
+      'Kaliy sorbat',
+      'Sitrat natriya'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 105,
-      sugar: '24g',
-      protein: '1g',
+      servingSize: '100ml',
+      calories: 46,
+      sugar: '11.5g',
+      protein: '0g',
       fat: '0g',
-      carbs: '26g'
+      carbs: '11.5g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 3 kun ichida iste\'mol qiling.',
+    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   }

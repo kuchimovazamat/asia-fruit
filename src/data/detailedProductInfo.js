@@ -6,17 +6,17 @@ export const detailedProductInfo = {
     variants: [{ volume: '1 L', packaging: { dimensions: [184, 130], unit: 'mm' } }],
     description: { uz: 'Premium sifatli meva sharbati', ru: 'Премиум фруктовый напиток', en: 'Premium quality juice drink', kz: 'Премиум жемістік сусын', tj: 'Нӯшокии преимум аз мева', kg: 'Премиум сапаттагы жемиш ичимдиги' },
     detailedIngredients: {
-      uz: 'Ichimlik suvi, shakar, konsentratlangan ananas sharbati, oziq-ovqat qo\'shimchasi ksantan kamedi, sorbat kaliy',
-      ru: 'Питьевая вода, сахар, концентрированный ананасовый сок, пищевая добавка ксантановая камедь, сорбат калия',
-      en: 'Drinking water, sugar, concentrated pineapple juice, food additive xanthan gum, potassium sorbate',
-      kz: 'Ішімдік суы, қант, концентрацияланған ананас шырыны, тамақтық қоспа ксантан камеді, калий сорбаты',
-      tj: 'Оби нӯшокӣ, қанд, шарботи ананаси ғилзатшуда, иловаи хӯрокворӣ ксантан камедь, сорбати калий',
-      kg: 'Ичүүчү суу, кант, концентрацияланган ананас ширеси, тамак-аш кошумчасы ксантан камедь, калий сорбаты'
+      uz: 'Ichimlik suvi, shakar, tabiiy ananas emulsiyasi, konsentratlangan olma sharbati, ananas aromati, limon kislota, natriy benzoat, natriy sitrat. Mahsulot pasterizasiya qilingan.',
+      ru: 'Питьевая вода, сахар, натуральная эмульсия ананаса, концентрированный яблочный сок, ароматизатор ананаса, лимонная кислота, бензоат натрия, цитрат натрия. Продукт пастеризован.',
+      en: 'Drinking water, sugar, natural pineapple emulsion, concentrated apple juice, pineapple flavoring, citric acid, sodium benzoate, sodium citrate. Product is pasteurized.',
+      kz: 'Ішімдік суы, қант, табиғи ананас эмульсиясы, концентрацияланған алма шырыны, ананас хош иісі, лимон қышқылы, натрий бензоаты, натрий цитраты. Өнім пастерленген.',
+      tj: 'Оби нӯшокӣ, қанд, эмулсияи табиии ананас, шарботи себи ғилзатшуда, аромати ананас, кислотаи лимӯ, натрий бензоат, натрий ситрат. Маҳсулот пастеризатсия шудааст.',
+      kg: 'Ичүүчү суу, кант, табигый ананас эмульсиясы, концентрацияланган алма ширеси, ананас жыты, лимон кислотасы, натрий бензоат, натрий цитрат. Продукт пастеризацияланган.'
     },
-    nutritionPer100ml: { carbohydrates: { amount: '12 g', variance: '± 0.5 g' }, energy: { kcal: 47, kj: 201 } },
-    storage: { temperature: { min: 0, max: 25, unit: '°C' }, humidity: { max: 75, unit: '%' }, conditions: { uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling.', ru: 'Беречь от солнца. Перед употреблением взболтать.', en: 'Keep from sunlight. Shake before use.', kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз.', tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед.', kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле.' } },
-    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab', ru: 'С даты производства', en: 'From production date', kz: 'Өндірілген күннен бастап', tj: 'Аз санаи истеҳсол', kg: 'Өндүрүлгөн күндөн баштап' } },
-    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahri, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
+    nutritionPer100ml: { carbohydrates: { amount: '12 g', variance: '± 0.5 g' }, energy: { kcal: 48, kj: 201 } },
+    storage: { temperature: { min: 0, max: 25, unit: '°C' }, humidity: { max: 75, unit: '%' }, conditions: { uz: 'Quruq va salqin joyda, hona harorati 0°C dan 25°C gacha, havoni nisbiy namligi 75% dan oshmagan sharoitda saqlansin. Yaroqlilik muddatida iste\'mol qiling.', ru: 'Хранить в сухом прохладном месте при температуре от 0°C до 25°C, относительная влажность воздуха не более 75%. Употреблять в течение срока годности.', en: 'Store in a dry and cool place at room temperature from 0°C to 25°C, relative air humidity not exceeding 75%. Consume within the expiry date.', kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын құрғақ және салқын жерде сақтаңыз. Жарамдылық мерзімінде тұтынуды ұсынамыз.', tj: 'Дар ҷои хушк ва хунук, дар ҳарорати хона аз 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ дошта шавад. Дар муддати мӯҳлати истифода истеъмол намоед.', kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган кургак жана салкын жерде сактагыла. Жарамдуулук мөөнөтүндө колдонуңуз.' } },
+    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilgan.', ru: 'С даты производства. Срок годности 12 месяцев. Дата производства указана на верхней части упаковки.', en: 'From production date. Shelf life 12 months. Production date is indicated on the top of the container.', kz: 'Өндірілген күннен бастап. Жарамдылық мерзімі 12 ай. Өндірілген күн ыдыстың жоғарғы бөлігінде көрсетілген.', tj: 'Аз санаи истеҳсол. Мӯҳлати нигаҳдорӣ 12 моҳ. Санаи истеҳсол дар қисми болоии зарф нишон дода шудааст.', kg: 'Өндүрүлгөн күндөн баштап. Жарамдуулук мөөнөтү 12 ай. Өндүрүлгөн күн идиштин жогорку бөлүгүндө көрсөтүлгөн.' } },
+    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahar, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
     certifications: { uz: ['Mahsulot pasterizasiya qilingan', 'PREMIUM QUALITY'], ru: ['Продукт пастеризован', 'PREMIUM QUALITY'], en: ['Product is pasteurized', 'PREMIUM QUALITY'], kz: ['Өнім пастерленген', 'PREMIUM QUALITY'], tj: ['Маҳсулот пастеризатсия шудааст', 'PREMIUM QUALITY'], kg: ['Продукт пастеризацияланган', 'PREMIUM QUALITY'] },
     barcode: null, productCode: null
   },
@@ -68,39 +68,39 @@ export const detailedProductInfo = {
         unit: '%'
       },
       conditions: {
-        uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling.',
-        ru: 'Беречь от прямых солнечных лучей. Перед употреблением взболтать.',
-        en: 'Keep away from direct sunlight. Shake before drinking.',
-        kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз.',
-        tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед.',
-        kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле.'
+        uz: 'Quruq va salqin joyda, xona harorati 0°C dan 25°C, xonani nisbiy namligi 75% dan oshmagan sharoitda saqlansin. To\'g\'ridan-to\'g\'ri tushadigan quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Yaroqlilik muddatida istimol qiling.',
+        ru: 'Хранить в прохладном и сухом месте при температуре от 0°C до 25°C, относительная влажность воздуха не более 75%. Беречь от прямых солнечных лучей. Перед употреблением взболтать. Употреблять в течение срока годности.',
+        en: 'Store in a cool and dry place at 0°C to 25°C, relative humidity not exceeding 75%. Keep away from direct sunlight. Shake before drinking. Consume within the expiry date.',
+        kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын салқын және құрғақ жерде сақтаңыз. Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Жарамдылық мерзімінде тұтыныңыз.',
+        tj: 'Дар ҷои хунук ва хушк, дар ҳарорати 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ доред. Аз нури мустақими офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Дар мӯҳлати истифода истеъмол намоед.',
+        kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган салкын жана кургак жерде сактагыла. Күн нурунан сактагыла. Ичер алдында силкигиле. Жарамдуулук мөөнөтүндө колдонуңуз.'
       }
     },
     shelfLife: {
       months: 12,
       note: {
-        uz: 'Ishlab chiqarilgan sanadan boshlab',
-        ru: 'С даты производства',
-        en: 'From production date',
-        kz: 'Өндірілген күннен бастап',
-        tj: 'Аз санаи истеҳсол',
-        kg: 'Өндүрүлгөн күндөн баштап'
+        uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishda ko\'rsatilgan.',
+        ru: 'С даты производства 12 месяцев. Дата производства указана на упаковке.',
+        en: 'From production date, 12 months. Production date is indicated on the container.',
+        kz: 'Өндірілген күннен бастап 12 ай. Өндірілген күн ыдыста көрсетілген.',
+        tj: 'Аз санаи истеҳсол 12 моҳ. Санаи истеҳсол дар зарф нишон дода шудааст.',
+        kg: 'Өндүрүлгөн күндөн баштап 12 ай. Өндүрүлгөн күн идиште көрсөтүлгөн.'
       }
     },
     manufacturer: {
       name: '«BRIGHTLY MEGA WATER» MCHJ',
       fullAddress: {
-        uz: 'Toshkent shahri, Uchtepa tumani, 31-daha, Qovunchi ko\'chasi 47 D',
-        ru: 'г. Ташкент, Учтепинский район, 31-дача, ул. Ковунчи 47 Д',
-        en: 'Tashkent city, Uchtepa district, 31-dacha, Qovunchi street 47 D',
-        kz: 'Ташкент қаласы, Учтепа ауданы, 31-дача, Қовунчи көшесі 47 Д',
-        tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-дача, кӯчаи Қовунчи 47 Д',
-        kg: 'Ташкент шаары, Учтепа району, 31-дача, Ковунчи көчөсү 47 Д'
+        uz: 'Toshkent shahar, Uchtepa tumani, 31-daha, Qovunchi ko\'chasi 47 D',
+        ru: 'г. Ташкент, Учтепинский район, 31-даха, ул. Ковунчи 47 Д',
+        en: 'Tashkent city, Uchtepa district, 31-daha, Qovunchi street 47 D',
+        kz: 'Ташкент қаласы, Учтепа ауданы, 31-даха, Қовунчи көшесі 47 Д',
+        tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-даха, кӯчаи Қовунчи 47 Д',
+        kg: 'Ташкент шаары, Учтепа району, 31-даха, Ковунчи көчөсү 47 Д'
       },
       contacts: {
         phone: '+998 88 120 00 75',
         website: 'www.lalanaar.uz',
-        email: 'lal_anaar2019@mail.ru'
+        email: 'asiafruite@mail.ru'
       }
     },
     certifications: {
@@ -170,36 +170,39 @@ export const detailedProductInfo = {
         unit: '%'
       },
       conditions: {
-        uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling.',
-        ru: 'Беречь от прямых солнечных лучей. Перед употреблением взболтать.',
-        en: 'Keep away from direct sunlight. Shake before drinking.',
-        kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз.',
-        tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед.',
-        kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле.'
+        uz: 'Quruq va salqin joyda, xona harorati 0°C dan 25°C, xonani nisbiy namligi 75% dan oshmagan sharoitda saqlansin. To\'g\'ridan-to\'g\'ri tushadigan quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Yaroqlilik muddatida istimol qiling.',
+        ru: 'Хранить в прохладном и сухом месте при температуре от 0°C до 25°C, относительная влажность воздуха не более 75%. Беречь от прямых солнечных лучей. Перед употреблением взболтать. Употреблять в течение срока годности.',
+        en: 'Store in a cool and dry place at 0°C to 25°C, relative humidity not exceeding 75%. Keep away from direct sunlight. Shake before drinking. Consume within the expiry date.',
+        kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын салқын және құрғақ жерде сақтаңыз. Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Жарамдылық мерзімінде тұтыныңыз.',
+        tj: 'Дар ҷои хунук ва хушк, дар ҳарорати 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ доред. Аз нури мустақими офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Дар мӯҳлати истифода истеъмол намоед.',
+        kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган салкын жана кургак жерде сактагыла. Күн нурунан сактагыла. Ичер алдында силкигиле. Жарамдуулук мөөнөтүндө колдонуңуз.'
       }
     },
     shelfLife: {
       months: 12,
       note: {
-        uz: 'Ishlab chiqarilgan sanadan boshlab',
-        ru: 'С даты производства',
-        en: 'From production date',
-        kz: 'Өндірілген күннен бастап',
-        tj: 'Аз санаи истеҳсол',
-        kg: 'Өндүрүлгөн күндөн баштап'
+        uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishda ko\'rsatilgan.',
+        ru: 'С даты производства 12 месяцев. Дата производства указана на упаковке.',
+        en: 'From production date, 12 months. Production date is indicated on the container.',
+        kz: 'Өндірілген күннен бастап 12 ай. Өндірілген күн ыдыста көрсетілген.',
+        tj: 'Аз санаи истеҳсол 12 моҳ. Санаи истеҳсол дар зарф нишон дода шудааст.',
+        kg: 'Өндүрүлгөн күндөн баштап 12 ай. Өндүрүлгөн күн идиште көрсөтүлгөн.'
       }
     },
     manufacturer: {
-      name: 'BRIGHTLY MEGA WATER MCHJ',
+      name: '«BRIGHTLY MEGA WATER» MCHJ',
       fullAddress: {
-        uz: 'Toshkent shahri, Uchtepa tumani, 31-daha, Qovunchi ko\'chasi 47 D',
-        ru: 'г. Ташкент, Учтепинский район, 31-дача, ул. Ковунчи 47 Д',
-        en: 'Tashkent city, Uchtepa district, 31-dacha, Qovunchi street 47 D'
+        uz: 'Toshkent shahar, Uchtepa tumani, 31-daha, Qovunchi ko\'chasi 47 D',
+        ru: 'г. Ташкент, Учтепинский район, 31-даха, ул. Ковунчи 47 Д',
+        en: 'Tashkent city, Uchtepa district, 31-daha, Qovunchi street 47 D',
+        kz: 'Ташкент қаласы, Учтепа ауданы, 31-даха, Қовунчи көшесі 47 Д',
+        tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-даха, кӯчаи Қовунчи 47 Д',
+        kg: 'Ташкент шаары, Учтепа району, 31-даха, Ковунчи көчөсү 47 Д'
       },
       contacts: {
         phone: '+998 88 120 00 75',
         website: 'www.lalanaar.uz',
-        email: 'lal_anaar2019@mail.ru'
+        email: 'asiafruite@mail.ru'
       }
     },
     certifications: {
@@ -214,95 +217,34 @@ export const detailedProductInfo = {
     productCode: null
   },
 
-  20: { // Aloe Vera (updated with provided product information)
-    variants: [
-      {
-        volume: '500 mL',
-        packaging: {
-          dimensions: [158, 162, 222, 230], // mm
-          unit: 'mm'
-        }
-      }
-    ],
-    description: {
-      uz: '100% Tabiiy meva',
-      ru: '100% Натуральные фрукты',
-      en: '100% Natural fruits',
-      kz: '100% Табиғи жемістер',
-      tj: '100% Мевaҳои табиӣ',
-      kg: '100% Табигый жемиштер'
-    },
+  20: { // Aloe Vera orginal sharbatli Ichimlik | 0.5L
+    variants: [{ volume: '500 mL', packaging: { dimensions: [158, 162, 222, 230], unit: 'mm' } }],
+    description: { uz: 'Aloe vera sharbatli original ichimlik', ru: 'Оригинальный напиток с соком алоэ вера', en: 'Original aloe vera juice drink', kz: 'Алоэ вера шырынды түпнұсқа ішімдік', tj: 'Нӯшокии аслии бо шарботи алоэ вера', kg: 'Алоэ вера ширеси менен оригинал ичимдик' },
     detailedIngredients: {
-      uz: 'Ichimlik suvi, shakar, konsentlangan olma sharbati, qovun aromati, limon kislota, kaliy sorbat, olma kislotasu',
-      ru: 'Питьевая вода, сахар, концентрированный яблочный сок, аромат дыни, лимонная кислота, яблочное кислота, сорбат калия',
-      en: 'Drinking water, sugar, concentrated apple juice, melon flavor, citric acid, potassium sorbate, malic acid',
-      kz: 'Ішімдік суы, қант, концентрацияланған алма шырыны, қауын хош иісі, лимон қышқылы, калий сорбаты, алма қышқылы',
-      tj: 'Оби нӯшокӣ, қанд, шарботи себи ғилзатшуда, арома дыни, кислотаи лимӯ, сорбати калий, кислотаи себ',
-      kg: 'Ичүүчү суу, кант, концентрацияланган алма ширеси, коон жыты, лимон кислотасы, калий сорбаты, алма кислотасы'
+      uz: 'Ichimlik suvi, shakar, aloe vera sharbati, aloe vera qelli, aloe vera aromati, limon kislota, sitrat natriy, olma kislotasi, sorbat kaliy, qellan kamedi, konjak kamedi, kalsiy karbonat. Mahsulot pasterizasiya qilingan.',
+      ru: 'Питьевая вода, сахар, сок алоэ вера, гель алоэ вера, ароматизатор алоэ вера, лимонная кислота, цитрат натрия, яблочная кислота, сорбат калия, геллановая камедь, конжаковая камедь, карбонат кальция. Продукт пастеризован.',
+      en: 'Drinking water, sugar, aloe vera juice, aloe vera gel, aloe vera flavoring, citric acid, sodium citrate, malic acid, potassium sorbate, gellan gum, konjac gum, calcium carbonate. Product is pasteurized.',
+      kz: 'Ічімдік суы, қант, алоэ вера шырыны, алоэ вера гелі, алоэ вера хош иісі, лимон қышқылы, натрий цитраты, алма қышқылы, калий сорбаты, геллан камеді, конжак камеді, кальций карбонаты. Өнім пастерленген.',
+      tj: 'Оби нӯшокӣ, қанд, шарботи алоэ вера, гели алоэ вера, аромаи алоэ вера, кислотаи лимӯ, цитрати натрий, кислотаи себ, сорбати калий, камеди геллан, камеди конжак, карбонати калсий. Маҳсулот пастеризатсия шудааст.',
+      kg: 'Ичүүчү суу, кант, алоэ вера ширеси, алоэ вера гели, алоэ вера жыты, лимон кислотасы, натрий цитраты, алма кислотасы, калий сорбаты, геллан камеди, конжак камеди, кальций карбонаты. Продукт пастеризацияланган.'
     },
-    nutritionPer100ml: {
-      carbohydrates: {
-        amount: '11.5 g',
-        variance: '± 0.5 g'
-      },
-      energy: {
-        kcal: 46,
-        kj: 192
-      }
-    },
+    nutritionPer100ml: { carbohydrates: { amount: '9 g', variance: '± 0.5 g' }, energy: { kcal: 36, kj: 150 } },
     storage: {
-      temperature: {
-        min: 0,
-        max: 25,
-        unit: '°C'
-      },
-      humidity: {
-        max: 75,
-        unit: '%'
-      },
+      temperature: { min: 0, max: 25, unit: '°C' },
+      humidity: { max: 75, unit: '%' },
       conditions: {
-        uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling.',
-        ru: 'Беречь от прямых солнечных лучей. Перед употреблением взболтать.',
-        en: 'Keep away from direct sunlight. Shake before drinking.',
-        kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз.',
-        tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед.',
-        kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле.'
+        uz: 'Quruq va salqin joyda, xona harorati 0°C dan 25°C, xonani nisbiy namligi 75% dan oshmagan sharoitda saqlansin. To\'g\'ridan-to\'g\'ri tushadigan quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Yaroqlilik muddatida istimol qiling.',
+        ru: 'Хранить в прохладном и сухом месте при температуре от 0°C до 25°C, относительная влажность воздуха не более 75%. Беречь от прямых солнечных лучей. Перед употреблением взболтать. Употреблять в течение срока годности.',
+        en: 'Store in a cool and dry place at 0°C to 25°C, relative humidity not exceeding 75%. Keep away from direct sunlight. Shake before drinking. Consume within the expiry date.',
+        kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын салқын және құрғақ жерде сақтаңыз. Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Жарамдылық мерзімінде тұтыныңыз.',
+        tj: 'Дар ҷои хунук ва хушк, дар ҳарорати 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ доред. Аз нури мустақими офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Дар мӯҳлати истифода истеъмол намоед.',
+        kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган салкын жана кургак жерде сактагыла. Күн нурунан сактагыла. Ичер алдында силкигиле. Жарамдуулук мөөнөтүндө колдонуңуз.'
       }
     },
-    shelfLife: {
-      months: 12,
-      note: {
-        uz: 'Ishlab chiqarilgan sanadan boshlab',
-        ru: 'С даты производства',
-        en: 'From production date',
-        kz: 'Өндірілген күннен бастап',
-        tj: 'Аз санаи истеҳсол',
-        kg: 'Өндүрүлгөн күндөн баштап'
-      }
-    },
-    manufacturer: {
-      name: '"BRIGHTLY MEGA WATER" MCHJ',
-      fullAddress: {
-        uz: 'Toshkent shahri, Uchtepa tumani, 31-daha, Qovunchi ko\'chasi 47 D',
-        ru: 'г. Ташкент, Учтепинский район, 31-дача, ул. Ковунчи 47 Д',
-        en: 'Tashkent city, Uchtepa district, 31-dacha, Qovunchi street 47 D'
-      },
-      contacts: {
-        phone: '+998 88 120 00 75',
-        website: 'www.lalanaar.uz',
-        email: 'lal_anaar2019@mail.ru'
-      }
-    },
-    certifications: {
-      uz: ['Mahsulot pasterizasiya qilingan', '100% Tabiiy meva'],
-      ru: ['Продукт пастеризован', '100% Натуральные фрукты'],
-      en: ['Product is pasteurized', '100% Natural fruits'],
-      kz: ['Өнім пастерленген', '100% Табиғи жемістер'],
-      tj: ['Маҳсулот пастеризатсия шудааст', '100% Мевaҳои табиӣ'],
-      kg: ['Продукт пастеризацияланган', '100% Табигый жемиштер']
-    },
-    barcode: null,
-    productCode: null
+    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishda ko\'rsatilgan.', ru: 'С даты производства 12 месяцев. Дата производства указана на упаковке.', en: 'From production date, 12 months. Production date is indicated on the container.', kz: 'Өндірілген күннен бастап 12 ай. Өндірілген күн ыдыста көрсетілген.', tj: 'Аз санаи истеҳсол 12 моҳ. Санаи истеҳсол дар зарф нишон дода шудааст.', kg: 'Өндүрүлгөн күндөн баштап 12 ай. Өндүрүлгөн күн идиште көрсөтүлгөн.' } },
+    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahar, Uchtepa tumani, 31-daha, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-даха, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-daha, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-даха, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-даха, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-даха, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
+    certifications: { uz: ['Mahsulot pasterizasiya qilingan', 'Aloe vera sharbatli ichimlik'], ru: ['Продукт пастеризован', 'Напиток с соком алоэ вера'], en: ['Product is pasteurized', 'Aloe vera juice drink'], kz: ['Өнім пастерленген', 'Алоэ вера шырынды ічімдік'], tj: ['Маҳсулот пастеризатсия шудааст', 'Нӯшокӣ бо шарботи алоэ вера'], kg: ['Продукт пастеризацияланган', 'Алоэ вера ширеси менен ичимдик'] },
+    barcode: null, productCode: null
   },
 
   // ─── Products from mahsulotlar.docx ───────────────────────────────────────
@@ -334,30 +276,30 @@ export const detailedProductInfo = {
     variants: [{ volume: '1 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
-      uz: 'Ichimlik suvi, shakar, mango konsentrati, oziq-ovqat qo\'shimchasi ksantan kamedi, sorbat kaliy',
-      ru: 'Питьевая вода, сахар, концентрат манго, пищевая добавка ксантановая камедь, сорбат калия',
-      en: 'Drinking water, sugar, mango concentrate, food additive xanthan gum, potassium sorbate',
-      kz: 'Ішімдік суы, қант, манго концентраты, тамақтық қоспа ксантан камеді, калий сорбаты',
-      tj: 'Оби нӯшокӣ, қанд, концентрати манго, иловаи хӯрокворӣ ксантан камедь, сорбати калий',
-      kg: 'Ичүүчү суу, кант, манго концентраты, тамак-аш кошумчасы ксантан камедь, калий сорбаты'
+      uz: 'Ichimlik suvi, shakar, mango sharbati konsentrati, oziq-ovqat qo\'shimchasi ksantan kamedi',
+      ru: 'Питьевая вода, сахар, концентрат сока манго, пищевая добавка ксантановая камедь',
+      en: 'Drinking water, sugar, mango juice concentrate, food additive xanthan gum',
+      kz: 'Ішімдік суы, қант, манго шырыны концентраты, тамақтық қоспа ксантан камеді',
+      tj: 'Оби нӯшокӣ, қанд, концентрати шарботи манго, иловаи хӯрокворӣ ксантан камедь',
+      kg: 'Ичүүчү суу, кант, манго ширеси концентраты, тамак-аш кошумчасы ксантан камедь'
     },
     nutritionPer100ml: { carbohydrates: { amount: '12 g', variance: '± 0.5 g' }, energy: { kcal: 48, kj: 201 } },
     storage: {
       temperature: { min: 0, max: 25, unit: '°C' },
       humidity: { max: 75, unit: '%' },
-      conditions: { uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Ochilgandan keyin muzlatgichda saqlang va 24 soat ichida iste\'mol qiling.', ru: 'Беречь от солнца. Перед употреблением взболтать. Хранить в холодильнике и употребить в течение 24 часов после вскрытия.', en: 'Keep from sunlight. Shake before use. Refrigerate after opening and consume within 24 hours.', kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Пас аз кушодан 24 соат истифода баред.', kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле. Ачкандан кийин 24 саат ичинде ичиңиз.' }
+      conditions: { uz: 'Quruq va salqin joyda, hona harorati 0°C dan 25°C gacha, havoni nisbiy namligi 75% oshmagan sharoitda saqlansin. To\'g\'ri dan to\'g\'ri tushadigan quyosh nuridan asrang. Iste\'mol qilishdan oldin silkitib aralashtiring. Yaroqlilik muddatida iste\'mol qiling. Qadoqni qopqog\'i ochilgandan keyin muzlatgichda saqlang va 24 soat davomida iste\'mol qiling.', ru: 'Хранить в сухом прохладном месте при температуре от 0°C до 25°C, относительная влажность воздуха не более 75%. Беречь от прямых солнечных лучей. Перед употреблением взболтать. Употреблять в течение срока годности. После вскрытия хранить в холодильнике и употребить в течение 24 часов.', en: 'Store in a dry and cool place at 0°C to 25°C, relative humidity not exceeding 75%. Keep away from direct sunlight. Shake before use. Consume within the expiry date. After opening, refrigerate and consume within 24 hours.', kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын құрғақ және салқын жерде сақтаңыз. Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Дар ҷои хушк ва хунук, дар ҳарорати 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ доред. Аз нури мустақими офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Пас аз кушодан дар яхдон нигоҳ доред ва дар муддати 24 соат истифода баред.', kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган кургак жана салкын жерде сактагыла. Күн нурунан сактагыла. Ичер алдында силкигиле. Ачкандан кийин 24 саат ичинде ичиңиз.' }
     },
-    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab', ru: 'С даты производства', en: 'From production date', kz: 'Өндірілген күннен бастап', tj: 'Аз санаи истеҳсол', kg: 'Өндүрүлгөн күндөн баштап' } },
-    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahri, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
+    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilgan.', ru: 'С даты производства 12 месяцев. Дата производства указана на верхней части упаковки.', en: 'From production date, 12 months. Production date is indicated on the top of the container.', kz: 'Өндірілген күннен бастап 12 ай. Өндірілген күн ыдыстың жоғарғы бөлігінде көрсетілген.', tj: 'Аз санаи истеҳсол 12 моҳ. Санаи истеҳсол дар қисми болоии зарф нишон дода шудааст.', kg: 'Өндүрүлгөн күндөн баштап 12 ай. Өндүрүлгөн күн идиштин жогорку бөлүгүндө көрсөтүлгөн.' } },
+    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahar, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
     certifications: { uz: ['Mahsulot pasterizasiya qilingan', '100% Tabiiy meva'], ru: ['Продукт пастеризован', '100% Натуральные фрукты'], en: ['Product is pasteurized', '100% Natural fruits'], kz: ['Өнім пастерленген', '100% Табиғи жемістер'], tj: ['Маҳсулот пастеризатсия шудааст', '100% Мевaҳои табиӣ'], kg: ['Продукт пастеризацияланган', '100% Табигый жемиштер'] },
     barcode: null, productCode: null
   },
 
-  4: { // Anor sharbati / Pomegranate Juice | 0.5L
+  4: { // Anor sharbati / Pomegranate Juice | 1L
     variants: [{ volume: '1 L', packaging: { dimensions: [162, 158], unit: 'mm' } }],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
     detailedIngredients: {
-      uz: 'Ichimlik suvi, shakar, konsentrlangan anor sharbati, konsentratlangan olma sharbati, oziq-ovqat qo\'shimchasi ksantan kamedi',
+      uz: 'Ichimlik suvi, shakar, konsentratlangan anor sharbati, konsentratlangan olma sharbati, oziq-ovqat qo\'shimchasi ksantan kamedi',
       ru: 'Питьевая вода, сахар, концентрированный сок граната, концентрированный яблочный сок, пищевая добавка ксантановая камедь',
       en: 'Drinking water, sugar, concentrated pomegranate juice, concentrated apple juice, food additive xanthan gum',
       kz: 'Ішімдік суы, қант, концентрацияланған анар шырыны, концентрацияланған алма шырыны, тамақтық қоспа ксантан камеді',
@@ -368,23 +310,24 @@ export const detailedProductInfo = {
     storage: {
       temperature: { min: 0, max: 25, unit: '°C' },
       humidity: { max: 75, unit: '%' },
-      conditions: { uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Ochilgandan keyin qopqoq yopiq holda muzlatgichda saqlang va 24 soat ichida iste\'mol qiling.', ru: 'Беречь от солнца. Перед употреблением взболтать. Хранить в холодильнике закрытым и употребить в течение 24 часов после вскрытия.', en: 'Keep from sunlight. Shake before use. Keep sealed in fridge and consume within 24 hours after opening.', kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Ашқаннан кейін жабылған күйде 24 сағат ішінде тұтыныңыз.', tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Пас аз кушодан пӯшида дар сардхона нигоҳ доред ва дар муддати 24 соат истифода баред.', kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле. Ачкандан кийин жабык абалда 24 саат ичинде ичиңиз.' }
+      conditions: { uz: '0°C dan 25°C gacha bo\'lgan haroratda, havoni nisbiy namligi 75% dan ko\'p bo\'lmagan joyda saqlang. To\'g\'ridan-to\'g\'ri quyosh nurlaridan saqlang. Iste\'mol qilishdan oldin yaxshilab silkiting. Yaroqlilik muddati davomida iste\'mol qiling. Qadoq ochilganidan keyin, qopqog\'i yopiq holda muzlatgichda saqlang va 24 soat ichida iste\'mol qiling.', ru: 'Хранить в прохладном и сухом помещении при температуре от 0°C до 25°C, при относительной влажности воздуха не более 75%. Беречь от прямых солнечных лучей. Перед употреблением взболтать. Употреблять в срок годности. После вскрытия крышки хранить в холодильнике в закрытом виде и употребить в течение 24 часов.', en: 'Store in a cool and dry place at 0°C to 25°C, relative humidity not more than 75%. Keep away from direct sunlight. Shake well before use. Consume within the expiry date. After opening, keep sealed in the refrigerator and consume within 24 hours.', kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын салқын және құрғақ жерде сақтаңыз. Күн сәулесінен сақтаңыз. Ішер алдында жақсылап шайқаңыз. Ашқаннан кейін жабылған күйде 24 сағат ішінде тұтыныңыз.', tj: 'Дар ҷои хунук ва хушк, дар ҳарорати 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ доред. Аз нури мустақими офтоб дур нигоҳ доред. Пеш аз истеъмол хуб ҳалзона кунед. Пас аз кушодан пӯшида дар яхдон нигоҳ доред ва дар муддати 24 соат истифода баред.', kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган салкын жана кургак жерде сактагыла. Күн нурунан сактагыла. Ичер алдында жакшылап силкигиле. Ачкандан кийин жабык абалда 24 саат ичинде ичиңиз.' }
     },
-    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab', ru: 'С даты производства', en: 'From production date', kz: 'Өндірілген күннен бастап', tj: 'Аз санаи истеҳсол', kg: 'Өндүрүлгөн күндөн баштап' } },
-    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahri, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'lal_anaar2019@mail.ru' } },
-    certifications: { uz: ['Mahsulot pasterizasiya qilingan', '100% Tabiiy meva'], ru: ['Продукт пастеризован', '100% Натуральные фрукты'], en: ['Product is pasteurized', '100% Natural fruits'], kz: ['Өнім пастерленген', '100% Табиғи жемістер'], tj: ['Маҳсулот пастеризатсия шудааст', '100% Мевaҳои табиӣ'], kg: ['Продукт пастеризацияланган', '100% Табигый жемиштер'] },
+    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilgan.', ru: 'С даты производства 12 месяцев. Дата производства указана на верхней части упаковки.', en: 'From production date, 12 months. Production date is indicated on the top of the container.', kz: 'Өндірілген күннен бастап 12 ай. Өндірілген күн ыдыстың жоғарғы бөлігінде көрсетілген.', tj: 'Аз санаи истеҳсол 12 моҳ. Санаи истеҳсол дар қисми болоии зарф нишон дода шудааст.', kg: 'Өндүрүлгөн күндөн баштап 12 ай. Өндүрүлгөн күн идиштин жогорку бөлүгүндө көрсөтүлгөн.' } },
+    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahar, Uchtepa tumani, Qovunchi ko\'chasi 47-uy', ru: 'г. Ташкент, Учтепинский район, ул. Ковунчи 47', en: 'Tashkent city, Uchtepa district, Qovunchi street 47', kz: 'Ташкент қаласы, Учтепа ауданы, Қовунчи көшесі 47', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, кӯчаи Қовунчи 47', kg: 'Ташкент шаары, Учтепа району, Ковунчи көчөсү 47' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
+    certifications: { uz: ['Mahsulot pasterilizatsiya qilingan', '100% Tabiiy meva'], ru: ['Продукт пастеризован', '100% Натуральные фрукты'], en: ['Product is pasteurized', '100% Natural fruits'], kz: ['Өнім пастерленген', '100% Табиғи жемістер'], tj: ['Маҳсулот пастеризатсия шудааст', '100% Мевaҳои табиӣ'], kg: ['Продукт пастеризацияланган', '100% Табигый жемиштер'] },
     barcode: null, productCode: null
   },
 
-  5: { // Shaftoli sharbati / Peach Juice | 0.5L & 1L
+  5: { // Shaftoli sharbati / Peach Juice | 1L & 0.5L
     variants: [
-      { volume: '1 L', packaging: { dimensions: [158], unit: 'mm' } },
-      { volume: '0.5 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }
+      { volume: '1 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } },
+      { volume: '0.5 L', packaging: { dimensions: [158], unit: 'mm' } }
     ],
     description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
+    // 1L label includes sorbat kaliy; 0.5L label (RUS) does not list it
     detailedIngredients: {
       uz: 'Ichimlik suvi, shakar, shaftoli sharbati konsentrati, oziq-ovqat qo\'shimchasi ksantan kamedi, sorbat kaliy',
-      ru: 'Питьевая вода, сахар, концентрат сока персика, пищевая добавка ксантановая камедь, сорбат калия',
+      ru: 'Питьевая вода, сахар, концентрат сока персика, пищевая добавка ксантановая камедь',
       en: 'Drinking water, sugar, peach juice concentrate, food additive xanthan gum, potassium sorbate',
       kz: 'Ішімдік суы, қант, шабдалы шырыны концентраты, тамақтық қоспа ксантан камеді, калий сорбаты',
       tj: 'Оби нӯшокӣ, қанд, концентрати шарботи шафтолу, иловаи хӯрокворӣ ксантан камедь, сорбати калий',
@@ -394,10 +337,10 @@ export const detailedProductInfo = {
     storage: {
       temperature: { min: 0, max: 25, unit: '°C' },
       humidity: { max: 75, unit: '%' },
-      conditions: { uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Ochilgandan keyin muzlatgichda saqlang va 24 soat ichida iste\'mol qiling.', ru: 'Беречь от солнца. Перед употреблением взболтать. Хранить в холодильнике и употребить в течение 24 часов после вскрытия.', en: 'Keep from sunlight. Shake before use. Refrigerate after opening and consume within 24 hours.', kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Пас аз кушодан 24 соат истифода баред.', kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле. Ачкандан кийин 24 саат ичинде ичиңиз.' }
+      conditions: { uz: 'Quruq va salqin joyda, hona harorati 0°C dan 25°C gacha, havoni nisbiy namligi 75% oshmagan sharoitda saqlansin. To\'g\'ri dan to\'g\'ri tushadigan quyosh nuridan asrang. Iste\'mol qilishdan oldin silkitib aralashtiring. Yaroqlilik muddatida iste\'mol qiling. Yaroqlilik muddati ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilingan. Qadoqni qopqog\'i ochilgandan keyin muzlatgichda saqlang va 24 soat davomida iste\'mol qiling.', ru: 'Хранить в прохладном и сухом помещении при температуре от 0°C до 25°C, при относительной влажности воздуха не более 75%. Беречь от прямых солнечных лучей. Перед употреблением взболтать. Употреблять в срок годности. Срок годности продукта 12 месяцев со дня изготовления. Срок изготовления указан в верхней части бутылки. После вскрытия крышки хранить в холодильнике и употреблять в течение 24 часов.', en: 'Store in a cool and dry place at 0°C to 25°C, relative humidity not exceeding 75%. Keep away from direct sunlight. Shake before use. Consume within the expiry date. Shelf life 12 months from production date indicated on the top of the bottle. After opening, refrigerate and consume within 24 hours.', kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын салқын және құрғақ жерде сақтаңыз. Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Дар ҷои хунук ва хушк, дар ҳарорати 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ доред. Аз нури мустақими офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Пас аз кушодан дар яхдон нигоҳ доред ва дар муддати 24 соат истифода баред.', kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган салкын жана кургак жерде сактагыла. Күн нурунан сактагыла. Ичер алдында силкигиле. Ачкандан кийин 24 саат ичинде ичиңиз.' }
     },
-    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab', ru: 'С даты производства', en: 'From production date', kz: 'Өндірілген күннен бастап', tj: 'Аз санаи истеҳсол', kg: 'Өндүрүлгөн күндөн баштап' } },
-    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahri, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
+    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilingan.', ru: 'С даты производства 12 месяцев. Дата изготовления указана на верхней части бутылки.', en: 'From production date, 12 months. Production date is indicated on the top of the bottle.', kz: 'Өндірілген күннен бастап 12 ай. Өндірілген күн ыдыстың жоғарғы бөлігінде көрсетілген.', tj: 'Аз санаи истеҳсол 12 моҳ. Санаи истеҳсол дар қисми болоии зарф нишон дода шудааст.', kg: 'Өндүрүлгөн күндөн баштап 12 ай. Өндүрүлгөн күн идиштин жогорку бөлүгүндө көрсөтүлгөн.' } },
+    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahar, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-квартал, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
     certifications: { uz: ['Mahsulot pasterizasiya qilingan', '100% Tabiiy meva'], ru: ['Продукт пастеризован', '100% Натуральные фрукты'], en: ['Product is pasteurized', '100% Natural fruits'], kz: ['Өнім пастерленген', '100% Табиғи жемістер'], tj: ['Маҳсулот пастеризатсия шудааст', '100% Мевaҳои табиӣ'], kg: ['Продукт пастеризацияланган', '100% Табигый жемиштер'] },
     barcode: null, productCode: null
   },
@@ -577,26 +520,26 @@ export const detailedProductInfo = {
     barcode: null, productCode: null
   },
 
-  9: { // Copied from Mango Juice
+  9: { // Qizil olma sharbati / Red Apple Juice | 1L
     variants: [{ volume: '1 L', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
-    description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
+    description: { uz: 'Meva sharbati 50% dan kam emas', ru: 'Продукт содержит не менее 50% фруктового сока', en: 'Contains no less than 50% fruit juice', kz: 'Жеміс шырыны 50%-дан кем емес', tj: 'Шарботи мева на камтар аз 50%', kg: 'Мева ширеси 50%-дан кем эмес' },
     detailedIngredients: {
-      uz: 'Filtrlangan suv, qizil olma sharbati konsentrati (40%), tabiiy olma ta\'m va aromatizatorlari, vitamin C (askorbin kislota), limon kislota',
-      ru: 'Фильтрованная вода, концентрат сока красного яблока (40%), натуральный яблочный вкус и ароматизаторы, витамин C (аскорбиновая кислота), лимонная кислота',
-      en: 'Filtered water, red apple juice concentrate (40%), natural apple flavor and aromatics, vitamin C (ascorbic acid), citric acid',
-      kz: 'Сүзілген су, қызыл алма шырынының концентраты (40%), табиғи алма дәмі мен хош иісі, витамин C (аскорбин қышқылы), лимон қышқылы',
-      tj: 'Оби тоза, концентрати шарботи себи сурх (40%), бӯи табиии себ ва атриёт, витамин C (кислотаи аскорбин), кислотаи лимӯ',
-      kg: 'Тазаланган суу, кызыл алма ширесинин концентраты (40%), табигый алма даамы жана жыттары, витамин C (аскорбин кислотасы), лимон кислотасы'
-},
-    nutritionPer100ml: { carbohydrates: { amount: '12 g', variance: '± 0.5 g' }, energy: { kcal: 48, kj: 201 } },
+      uz: 'Ichimlik suvi, konsentratlangan olma sharbati, olma aromati, aspartam, limon kislota, sitrat natriy, natriy benzoat, sorbat kaliy. Mahsulot tarkibida meva sharbati 50% kam emas.',
+      ru: 'Питьевая вода, концентрированный яблочный сок, яблочный ароматизатор, аспартам, лимонная кислота, цитрат натрия, бензоат натрия, сорбат калия. Продукт содержит не менее 50% фруктового сока.',
+      en: 'Drinking water, concentrated apple juice, apple flavoring, aspartame, citric acid, sodium citrate, sodium benzoate, potassium sorbate. Product contains no less than 50% fruit juice.',
+      kz: 'Ішімдік суы, концентрацияланған алма шырыны, алма хош иісі, аспартам, лимон қышқылы, натрий цитраты, натрий бензоаты, калий сорбаты. Өнімде жеміс шырыны 50%-дан кем емес.',
+      tj: 'Оби нӯшокӣ, шарботи себи ғилзатшуда, аромаи себ, аспартам, кислотаи лимӯ, цитрати натрий, бензоати натрий, сорбати калий. Маҳсулот на камтар аз 50% шарботи мева дорад.',
+      kg: 'Ичүүчү суу, концентрацияланган алма ширеси, алма жыты, аспартам, лимон кислотасы, натрий цитраты, натрий бензоаты, калий сорбаты. Продуктто мева ширеси 50%-дан кем эмес.'
+    },
+    nutritionPer100ml: { carbohydrates: { amount: '5.8 g', variance: '± 0.5 g' }, energy: { kcal: 24, kj: 100 } },
     storage: {
       temperature: { min: 0, max: 25, unit: '°C' },
       humidity: { max: 75, unit: '%' },
-      conditions: { uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Qadoq ochilgandan keyin muzlatgichda saqlang va 24 soat ichida iste\'mol qiling.', ru: 'Беречь от солнца. Перед употреблением взболтать. Хранить в холодильнике и употребить в течение 24 часов после вскрытия.', en: 'Keep from sunlight. Shake before use. Refrigerate after opening and consume within 24 hours.', kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Пас аз кушодан 24 соат истифода баред.', kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле. Ачкандан кийин 24 саат ичинде ичиңиз.' }
+      conditions: { uz: 'Quruq va salqin joyda, hona harorati 0°C dan 25°C gacha, havoni nisbiy namligi 75% oshmagan sharoitda saqlansin. To\'g\'ri dan to\'g\'ri tushadigan quyosh nuridan asrang. Iste\'mol qilishdan oldin silkitib aralashtiring. Yaroqlilik muddatida iste\'mol qiling. Yaroqlilik muddati ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilgan. Qadoqni qopqog\'i ochilgandan keyin muzlatgichda saqlang va 24 soat davomida iste\'mol qiling.', ru: 'Хранить в сухом прохладном месте при температуре от 0°C до 25°C, относительная влажность воздуха не более 75%. Беречь от прямых солнечных лучей. Перед употреблением взболтать. Употреблять в течение срока годности. Срок годности 12 месяцев с даты производства. Дата производства указана на верхней части упаковки. После вскрытия хранить в холодильнике и употребить в течение 24 часов.', en: 'Store in a dry and cool place at 0°C to 25°C, relative humidity not exceeding 75%. Keep away from direct sunlight. Shake before use. Consume within the expiry date. Shelf life 12 months from production date indicated on the top of the container. After opening, refrigerate and consume within 24 hours.', kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын құрғақ және салқын жерде сақтаңыз. Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Жарамдылық мерзімінде тұтыныңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Дар ҷои хушк ва хунук, дар ҳарорати 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ доред. Аз нури мустақими офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Дар мӯҳлати истифода истеъмол намоед. Пас аз кушодан дар яхдон нигоҳ доред ва дар муддати 24 соат истифода баред.', kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган кургак жана салкын жерде сактагыла. Күн нурунан сактагыла. Ичер алдында силкигиле. Жарамдуулук мөөнөтүндө колдонуңуз. Ачкандан кийин 24 саат ичинде ичиңиз.' }
     },
-    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab', ru: 'С даты производства', en: 'From production date', kz: 'Өндірілген күннен бастап', tj: 'Аз санаи истеҳсол', kg: 'Өндүрүлгөн күндөн баштап' } },
-    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahri, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
-    certifications: { uz: ['Mahsulot pasterizasiya qilingan', '100% Tabiiy meva'], ru: ['Продукт пастеризован', '100% Натуральные фрукты'], en: ['Product is pasteurized', '100% Natural fruits'], kz: ['Өнім пастерленген', '100% Табиғи жемістер'], tj: ['Маҳсулот пастеризатсия шудааст', '100% Мевaҳои табиӣ'], kg: ['Продукт пастеризацияланган', '100% Табигый жемиштер'] },
+    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilgan.', ru: 'С даты производства 12 месяцев. Дата производства указана на верхней части упаковки.', en: 'From production date, 12 months. Production date is indicated on the top of the container.', kz: 'Өндірілген күннен бастап 12 ай. Өндірілген күн ыдыстың жоғарғы бөлігінде көрсетілген.', tj: 'Аз санаи истеҳсол 12 моҳ. Санаи истеҳсол дар қисми болоии зарф нишон дода шудааст.', kg: 'Өндүрүлгөн күндөн баштап 12 ай. Өндүрүлгөн күн идиштин жогорку бөлүгүндө көрсөтүлгөн.' } },
+    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahar, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
+    certifications: { uz: ['Mahsulot pasterizasiya qilingan', 'Meva sharbati 50% dan kam emas'], ru: ['Продукт пастеризован', 'Содержит не менее 50% фруктового сока'], en: ['Product is pasteurized', 'Contains no less than 50% fruit juice'], kz: ['Өнім пастерленген', 'Жеміс шырыны 50%-дан кем емес'], tj: ['Маҳсулот пастеризатсия шудааст', 'Шарботи мева на камтар аз 50%'], kg: ['Продукт пастеризацияланган', 'Мева ширеси 50%-дан кем эмес'] },
     barcode: null, productCode: null
   },
 
@@ -974,26 +917,26 @@ export const detailedProductInfo = {
     barcode: null, productCode: null
   },
 
-  28: { // Copied from Mango Juice
+  28: { // Qovun Sharbati / Melon Juice | 250mL
     variants: [{ volume: '250 mL', packaging: { dimensions: [225, 220, 271], unit: 'mm' } }],
-    description: { uz: '100% Tabiiy meva', ru: '100% Натуральные фрукты', en: '100% Natural fruits', kz: '100% Табиғи жемістер', tj: '100% Мевaҳои табиӣ', kg: '100% Табигый жемиштер' },
+    description: { uz: 'Qovun Sharbati', ru: 'Дынный сок', en: 'Melon Juice', kz: 'Қауын шырыны', tj: 'Шарботи дыня', kg: 'Коон ширеси' },
     detailedIngredients: {
-      uz: 'Premium qovun sharbati (92%), filtrlangan suv, limon sharbati, tabiiy qovun ta\'mi, limon kislota',
-      ru: 'Премиум сок дыни (92%), фильтрованная вода, лимонный сок, натуральный вкус дыни, лимонная кислота',
-      en: 'Premium melon juice (92%), filtered water, lemon juice, natural melon flavor, citric acid',
-      kz: 'Премиум қауын шырыны (92%), сүзілген су, лимон шырыны, табиғи қауын дәмі, лимон қышқылы',
-      tj: 'Шарбати преимум харбуза (92%), оби тоза, шарбати лимӯ, бӯи табиии харбуза, кислотаи лимӯ',
-      kg: 'Премиум коон ширеси (92%), тазаланган суу, лимон ширеси, табигый коон даамы, лимон кислотасы'
+      uz: 'Ichimlik suvi, shakar, konsentlangan qovun sharbati, konsentlangan olma sharbati, qovun aromati, limon kislota, kaliy sorbat, sitrat natriya. Mahsulot pasterizasiya qilingan.',
+      ru: 'Питьевая вода, сахар, концентрированный сок дыни, концентрированный яблочный сок, ароматизатор дыни, лимонная кислота, сорбат калия, цитрат натрия. Продукт пастеризован.',
+      en: 'Drinking water, sugar, concentrated melon juice, concentrated apple juice, melon flavoring, citric acid, potassium sorbate, sodium citrate. Product is pasteurized.',
+      kz: 'Ічімдік суы, қант, концентрацияланған қауын шырыны, концентрацияланған алма шырыны, қауын хош иісі, лимон қышқылы, калий сорбаты, натрий цитраты. Өнім пастерленген.',
+      tj: 'Оби нӯшокӣ, қанд, шарботи дыняи ғилзатшуда, шарботи себи ғилзатшуда, аромаи дыня, кислотаи лимӯ, сорбати калий, цитрати натрий. Маҳсулот пастеризатсия шудааст.',
+      kg: 'Ичүүчү суу, кант, концентрацияланган коон ширеси, концентрацияланган алма ширеси, коон жыты, лимон кислотасы, калий сорбаты, натрий цитраты. Продукт пастеризацияланган.'
     },
-    nutritionPer100ml: { carbohydrates: { amount: '12 g', variance: '± 0.5 g' }, energy: { kcal: 48, kj: 201 } },
+    nutritionPer100ml: { carbohydrates: { amount: '11.5 g', variance: '± 0.5 g' }, energy: { kcal: 46, kj: 192 } },
     storage: {
       temperature: { min: 0, max: 25, unit: '°C' },
       humidity: { max: 75, unit: '%' },
-      conditions: { uz: 'Quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Qadoq ochilgandan keyin muzlatgichda saqlang va 24 soat ichida iste\'mol qiling.', ru: 'Беречь от солнца. Перед употреблением взболтать. Хранить в холодильнике и употребить в течение 24 часов после вскрытия.', en: 'Keep from sunlight. Shake before use. Refrigerate after opening and consume within 24 hours.', kz: 'Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Аз нури офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Пас аз кушодан 24 соат истифода баред.', kg: 'Күн нурунан сактагыла. Ичер алдында силкигиле. Ачкандан кийин 24 саат ичинде ичиңиз.' }
+      conditions: { uz: 'Quruq va salqin joyda, hona harorati 0°C dan 25°C, honani nisbiy namligi 75% dan oshmagan sharoitda saqlansin. Tug\'ridan-tug\'ri tushadigan quyosh nuridan asrang. Ichishdan oldin aralashtirib oling. Yaroqlilik muddatida istimol qiling. Mahsulotni yaroqlilik muddati ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilingan. Qadoq qopqog\'i ochilgandan keyin muzlatgichda saqlang va 24 soat davomida istimol qiling.', ru: 'Хранить в сухом прохладном месте при температуре от 0°C до 25°C, относительная влажность воздуха не более 75%. Беречь от прямых солнечных лучей. Перед употреблением взболтать. Употреблять в течение срока годности. Срок годности 12 месяцев с даты производства. Дата производства указана на верхней части упаковки. После вскрытия хранить в холодильнике и употребить в течение 24 часов.', en: 'Store in a dry and cool place at 0°C to 25°C, relative humidity not exceeding 75%. Keep away from direct sunlight. Shake before drinking. Consume within the expiry date. Shelf life 12 months from production date indicated on the top of the container. After opening, refrigerate and consume within 24 hours.', kz: 'Бөлме температурасы 0°C-тан 25°C-қа дейін, ауаның салыстырмалы ылғалдылығы 75%-дан аспайтын құрғақ және салқын жерде сақтаңыз. Күн сәулесінен сақтаңыз. Ішер алдында шайқаңыз. Жарамдылық мерзімінде тұтыныңыз. Ашқаннан кейін 24 сағат ішінде тұтыныңыз.', tj: 'Дар ҷои хушк ва хунук, дар ҳарорати 0°C то 25°C, намии нисбии ҳаво на зиёда аз 75% нигоҳ доред. Аз нури мустақими офтоб дур нигоҳ доред. Пеш аз истеъмол ҳалзона кунед. Дар мӯҳлати истифода истеъмол намоед. Пас аз кушодан дар яхдон нигоҳ доред ва дар муддати 24 соат истифода баред.', kg: 'Бөлмө температурасы 0°C дан 25°C га чейин, абанын салыштырма нымдуулугу 75% дан ашпаган кургак жана салкын жерде сактагыла. Күн нурунан сактагыла. Ичер алдында силкигиле. Жарамдуулук мөөнөтүндө колдонуңуз. Ачкандан кийин 24 саат ичинде ичиңиз.' }
     },
-    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab', ru: 'С даты производства', en: 'From production date', kz: 'Өндірілген күннен бастап', tj: 'Аз санаи истеҳсол', kg: 'Өндүрүлгөн күндөн баштап' } },
-    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahri, Uchtepa tumani, 31-mavze, Qovunchi ko\'chasi 47 D', ru: 'г. Ташкент, Учтепинский район, 31-массив, ул. Ковунчи 47 Д', en: 'Tashkent city, Uchtepa district, 31-zone, Qovunchi street 47 D', kz: 'Ташкент қаласы, Учтепа ауданы, 31-массив, Қовунчи көшесі 47 Д', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-массив, кӯчаи Қовунчи 47 Д', kg: 'Ташкент шаары, Учтепа району, 31-кварталы, Ковунчи көчөсү 47 Д' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
-    certifications: { uz: ['Mahsulot pasterizasiya qilingan', '100% Tabiiy meva'], ru: ['Продукт пастеризован', '100% Натуральные фрукты'], en: ['Product is pasteurized', '100% Natural fruits'], kz: ['Өнім пастерленген', '100% Табиғи жемістер'], tj: ['Маҳсулот пастеризатсия шудааст', '100% Мевaҳои табиӣ'], kg: ['Продукт пастеризацияланган', '100% Табигый жемиштер'] },
+    shelfLife: { months: 12, note: { uz: 'Ishlab chiqarilgan sanadan boshlab 12 oy. Ishlab chiqarilgan sana idishni yuqori qismida ko\'rsatilingan.', ru: 'С даты производства 12 месяцев. Дата производства указана на верхней части упаковки.', en: 'From production date, 12 months. Production date is indicated on the top of the container.', kz: 'Өндірілген күннен бастап 12 ай. Өндірілген күн ыдыстың жоғарғы бөлігінде көрсетілген.', tj: 'Аз санаи истеҳсол 12 моҳ. Санаи истеҳсол дар қисми болоии зарф нишон дода шудааст.', kg: 'Өндүрүлгөн күндөн баштап 12 ай. Өндүрүлгөн күн идиштин жогорку бөлүгүндө көрсөтүлгөн.' } },
+    manufacturer: { name: '«BRIGHTLY MEGA WATER» MCHJ', fullAddress: { uz: 'Toshkent shahar, Uchtepa tumani, 31-daha, Qovunchi ko\'chasi 47 uy', ru: 'г. Ташкент, Учтепинский район, 31-даха, ул. Ковунчи 47', en: 'Tashkent city, Uchtepa district, 31-daha, Qovunchi street 47', kz: 'Ташкент қаласы, Учтепа ауданы, 31-даха, Қовунчи көшесі 47', tj: 'Шаҳри Тошканд, ноҳияи Учтепа, 31-даха, кӯчаи Қовунчи 47', kg: 'Ташкент шаары, Учтепа району, 31-даха, Ковунчи көчөсү 47' }, contacts: { phone: '+998 88 120 00 75', website: 'www.lalanaar.uz', email: 'asiafruite@mail.ru' } },
+    certifications: { uz: ['Mahsulot pasterizasiya qilingan', 'Qovun Sharbati'], ru: ['Продукт пастеризован', 'Дынный сок'], en: ['Product is pasteurized', 'Melon Juice'], kz: ['Өнім пастерленген', 'Қауын шырыны'], tj: ['Маҳсулот пастеризатсия шудааст', 'Шарботи дыня'], kg: ['Продукт пастеризацияланган', 'Коон ширеси'] },
     barcode: null, productCode: null
   }
 }
