@@ -297,31 +297,35 @@ export const products = [
     storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
-  },
+  }, */
   {
     id: 12,
     name: 'Rayhonli olma sharbati',
     category: 'Rayhonli sharbatlar',
     image: '/images/basil_seed_olma_juice.jpeg',
-    shortDescription: 'Rayhon urug\'i va olma sharbati - sog\'lom va mazali',
+    shortDescription: 'Rayhon urug\'i bilan olma sharbati',
     ingredients: [
-      'Filtrlangan suv',
-      'Olma sharbati konsentrati (30%)',
-      'Rayhon urug\'i',
-      'Tabiiy olma ta\'mi',
-      'Vitamin C (askorbin kislota)',
-      'Limon kislota'
+      'Ichimlik suvi',
+      'Shakar',
+      'Konsentrlangan olma sharbati',
+      'Olma aromati',
+      'Karamel rangi',
+      'Gellan kamedi',
+      'Konjakovaya kamedi',
+      'Kaltsiy karbonat',
+      'Limon kislota',
+      'Kaliy sorbat'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 125,
-      sugar: '28g',
-      protein: '2g',
+      servingSize: '100ml',
+      calories: 46,
+      sugar: '11.5g',
+      protein: '0g',
       fat: '0g',
-      carbs: '30g'
+      carbs: '11.5g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Quruq va salqin joyda saqlang (0°C–+25°C). Quyosh nuridan asrang. Ichishdan oldin silkitib oling. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -330,25 +334,31 @@ export const products = [
     name: 'Rayhonli ananas sharbati',
     category: 'Rayhonli sharbatlar',
     image: '/images/basil_seed_ananas_juice.jpeg',
-    shortDescription: 'Rayhon urug\'i va ananas - tetiklantiruvchi kombinatsiya',
+    shortDescription: 'Rayhon urug\'i bilan ananas sharbati',
     ingredients: [
-      'Filtrlangan suv',
-      'Ananas sharbati konsentrati (35%)',
-      'Rayhon urug\'i',
-      'Tabiiy ananas ta\'mi',
-      'Vitamin C (askorbin kislota)',
-      'Limon kislota'
+      'Ichimlik suvi',
+      'Shakar',
+      'Ananas pyuresi',
+      'Ananas aromati',
+      'Beta-karotin',
+      'Gellan kamedi',
+      'Konjakovaya kamedi',
+      'Kaltsiy karbonat',
+      'Limon kislota',
+      'Natriy sitrat',
+      'Kaliy sorbat',
+      'Natriy benzoat'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 135,
-      sugar: '31g',
-      protein: '2g',
+      servingSize: '100ml',
+      calories: 48,
+      sugar: '12g',
+      protein: '0g',
       fat: '0g',
-      carbs: '33g'
+      carbs: '12g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Quruq va salqin joyda saqlang (0°C–+25°C). Quyosh nuridan asrang. Ichishdan oldin silkitib oling. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -357,25 +367,29 @@ export const products = [
     name: 'Rayhonli anor sharbati',
     category: 'Rayhonli sharbatlar',
     image: '/images/basil_seed_anor_juice.jpeg',
-    shortDescription: 'Rayhon urug\'i va anor - antioksidantlarga boy',
+    shortDescription: 'Rayhon urug\'i bilan anor sharbati',
     ingredients: [
-      'Filtrlangan suv',
-      'Anor sharbati (40%)',
+      'Ichimlik suvi',
+      'Konsentrlangan anor sharbati',
       'Rayhon urug\'i',
-      'Tabiiy anor ta\'mi',
-      'Vitamin C (askorbin kislota)',
-      'Limon kislota'
+      'Anor aromati',
+      'Gellan kamedi',
+      'Konjakovaya kamedi',
+      'Kaltsiy karbonat',
+      'Limon kislota',
+      'Natriy sitrat',
+      'Kaliy sorbat'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 140,
-      sugar: '33g',
-      protein: '2g',
+      servingSize: '100ml',
+      calories: 52,
+      sugar: '12.5g',
+      protein: '0g',
       fat: '0g',
-      carbs: '34g'
+      carbs: '12.5g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Quruq va salqin joyda saqlang (0°C–+25°C). Quyosh nuridan asrang. Ichishdan oldin silkitib oling. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
@@ -384,30 +398,33 @@ export const products = [
     name: 'Rayhonli shaftoli sharbati',
     category: 'Rayhonli sharbatlar',
     image: '/images/basil_seed_shaftoli_juice.jpeg',
-    shortDescription: 'Rayhon urug\'i va shaftoli - noyob lazzat',
+    shortDescription: 'Rayhon urug\'i bilan shaftoli sharbati',
     ingredients: [
-      'Filtrlangan suv',
-      'Shaftoli pyuresi (35%)',
-      'Rayhon urug\'i',
-      'Qamish shakari',
-      'Tabiiy shaftoli ta\'mi',
-      'Vitamin C (askorbin kislota)',
-      'Limon kislota'
+      'Ichimlik suvi',
+      'Shakar',
+      'Konsentrlangan shaftoli sharbati',
+      'Shaftoli aromati',
+      'Gellan kamedi',
+      'Konjakovaya kamedi',
+      'Kaltsiy karbonat',
+      'Limon kislota',
+      'Kaliy sorbat',
+      'Natriy benzoat'
     ],
     nutrition: {
-      servingSize: '250ml',
-      calories: 130,
-      sugar: '30g',
-      protein: '2g',
+      servingSize: '100ml',
+      calories: 52,
+      sugar: '12.5g',
+      protein: '0g',
       fat: '0g',
-      carbs: '32g'
+      carbs: '12.5g'
     },
     allergens: 'Yo\'q',
-    storage: 'Sovuq holatda saqlang. Qadoq ochilgandan keyin 5 kun ichida iste\'mol qiling.',
+    storage: 'Quruq va salqin joyda saqlang (0°C–+25°C). Quyosh nuridan asrang. Ichishdan oldin silkitib oling. Qadoq ochilgandan keyin 24 soat ichida iste\'mol qiling.',
     origin: 'Osiyo ishlab chiqarilgan',
     inStock: true
   },
-  {
+  /* {
     id: 16,
     name: 'Lal anor sharbati',
     category: 'Premium sharbatlar',
